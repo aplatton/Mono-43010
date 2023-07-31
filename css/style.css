@@ -3,13 +3,13 @@
 
 /*---- RESET ----*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -19,35 +19,35 @@ a {
 
 /*---- HEATHER ----*/
 
-.nav{
+.nav {
     background-color: #e1e1d8;
 }
 
-.navbar{
+.navbar {
     padding-left: 80px;
     padding-right: 80px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2.3rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
-.navbar-nav{
+.navbar-nav {
     text-transform: uppercase;
     letter-spacing: 0.16em;
     font-size: 0.9rem;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     flex-grow: 0;
 }
 
 /*---- MAIN ----*/
 
-.hero{
+.hero {
     width: 100%;
     height: calc(100vh - 80px);
     background-image: url(../img/apertura.jpg);
@@ -62,12 +62,12 @@ a {
 
 }
 
-.hero h2{
+.hero h2 {
     font-size: 4rem;
     font-weight: 200;
 }
 
-.hero p{
+.hero p {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 0.76rem;
@@ -75,7 +75,7 @@ a {
     margin-top: 10px;
 }
 
-.bienvenido{
+.bienvenido {
     padding-top: 200px;
     padding-bottom: 60px;
     display: flex;
@@ -87,13 +87,14 @@ a {
     margin-bottom: 36px;
 }
 
-.bienvenido h2{
+.bienvenido h2 {
     font-size: 3rem;
     font-weight: 200;
     text-align: center;
     padding-bottom: 5px;
 }
-.bienvenido p{
+
+.bienvenido p {
     letter-spacing: 0.1em;
     font-size: 1rem;
     font-weight: 400;
@@ -111,15 +112,16 @@ a {
     grid-template-columns: 1fr 1fr;
 }
 
-.portfolio .retratos{
-    background-image: url(../img/portfolio1b.jpg);   
+.portfolio .retratos {
+    background-image: url(../img/portfolio1b.jpg);
 }
 
-.portfolio .naturaleza{
+.portfolio .naturaleza {
     background-image: url(../img/portfolio2b.jpg);
 }
 
-.retratos, .naturaleza{
+.retratos,
+.naturaleza {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,23 +130,24 @@ a {
     background-size: cover;
 }
 
-div h2{
+div h2 {
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.09em;
     text-align: center;
-    padding-bottom:8px;
+    padding-bottom: 8px;
 }
 
-div p{
-    font-size: 0,9rem;
+div p {
+    font-size: 0, 9rem;
     font-weight: 300;
     letter-spacing: 0.09em;
     padding-bottom: 22px;
     text-align: center;
 }
-.ver{
+
+.ver {
     letter-spacing: 0.1em;
     font-size: 1rem;
     font-weight: 400;
@@ -153,23 +156,23 @@ div p{
     color: #fff;
 }
 
-.ver:hover{
+.ver:hover {
     color: #c1bcbc;
 }
 
-.clientes{
+.clientes {
     padding: 0 80px;
     margin-bottom: 80px;
 }
 
-.clientes .menu-clientes{
+.clientes .menu-clientes {
     margin-top: 110px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-.clientes h2{
+.clientes h2 {
     letter-spacing: 0.2em;
     font-size: 1.1rem;
     font-weight: 400;
@@ -177,7 +180,7 @@ div p{
     display: inline-block;
 }
 
-.clientes h3{
+.clientes h3 {
     letter-spacing: 0.3em;
     font-size: 0.7rem;
     font-weight: 400;
@@ -185,21 +188,21 @@ div p{
     display: inline-block;
 }
 
-.clientes h3:hover{
-    color:#c1bcbc
+.clientes h3:hover {
+    color: #c1bcbc
 }
 
-.cards-clientes{
+.cards-clientes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 40px;
 }
 
-.cards img{
+.cards img {
     padding-bottom: 40px;
 }
 
-.cards p{
+.cards p {
     line-height: 1.7rem;
     font-size: 0.9rem;
     font-weight: 300;
@@ -208,22 +211,22 @@ div p{
     padding-bottom: 40px;
 }
 
-.cards h4{
+.cards h4 {
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.4em;
 }
 
-.newblog{
+.newblog {
     margin-bottom: 120px;
 }
 
-.carousel-item h5{
+.carousel-item h5 {
     font-size: 2rem;
     font-weight: 300;
 }
 
-.carousel-item p{
+.carousel-item p {
     font-size: 1.3rem;
     font-weight: 300;
 }
@@ -238,7 +241,7 @@ hr.solid {
 
 /*---- FOOTER ----*/
 
-footer{
+footer {
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
@@ -246,14 +249,14 @@ footer{
     margin-bottom: 80px;
 }
 
-footer h1{
+footer h1 {
     font-size: 2.3rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
-.footer-div{
+.footer-div {
     width: 33%;
     height: auto;
     display: flex;
@@ -262,24 +265,24 @@ footer h1{
     align-items: center;
 }
 
-.footer-div div a i{
-    color:#3c3c3c;
+.footer-div div a i {
+    color: #3c3c3c;
     font-size: 36px;
     padding: 0 8px;
     opacity: 70%;
 }
 
-.footer-div div a i:hover{
+.footer-div div a i:hover {
     opacity: 100%;
 }
 
-.footer-div .logo h2{
+.footer-div .logo h2 {
     font-size: 1.2rem;
     letter-spacing: 0.2em;
     font-weight: 600;
 }
 
-.btn-contacto{
+.btn-contacto {
     font-size: 0.7rem;
     letter-spacing: 0.2em;
     margin-top: 40px;
@@ -292,23 +295,25 @@ footer h1{
     margin: auto;
 }
 
-.btn-contacto:hover{
+.btn-contacto:hover {
     background-color: #000000;
     text-decoration: none;
-    color:#b4b4b2
+    color: #b4b4b2
 }
 
 /*---- ACERCADEMI ----*/
 .acercademi-container {
     margin: 0px 85px;
-    
+
 }
-@media screen and (max-width: 450px){
+
+@media screen and (max-width: 450px) {
     .acercademi-container {
         margin: 0 35px;
-        
-    }  
+
+    }
 }
+
 .presentacion {
     display: flex;
     flex-direction: column;
@@ -317,11 +322,13 @@ footer h1{
     margin-top: 80px;
     margin-bottom: 100px;
 }
-.encabezado-img-container{
+
+.encabezado-img-container {
     width: 100%;
     overflow: hidden;
 }
-.encabezado-img-container .presentacion-image{
+
+.encabezado-img-container .presentacion-image {
     width: 100%;
     background-image: url(../img/presentacion.jpg);
     background-repeat: no-repeat;
@@ -330,15 +337,16 @@ footer h1{
     height: 520px;
 
 }
-@media screen and (max-width: 450px){
-    .presentacion-image{
+
+@media screen and (max-width: 450px) {
+    .presentacion-image {
         height: 500px;
         background-size: 320%;
     }
 }
 
 
-.bajada{
+.bajada {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -346,20 +354,20 @@ footer h1{
     padding-bottom: 80px;
 }
 
-.bajada h3{
+.bajada h3 {
     font-size: 2.6rem;
     font-weight: 300;
     line-height: 3.2rem;
     padding-bottom: 15px;
 }
 
-.bajada p{
+.bajada p {
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 0.26em;
 }
 
-.acercade{
+.acercade {
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -367,12 +375,13 @@ footer h1{
     margin-top: 100px;
 
 }
-.bio-img-container{
+
+.bio-img-container {
     width: 35%;
     overflow: hidden;
 }
 
-.bio{
+.bio {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -380,20 +389,20 @@ footer h1{
     /* margin-left: 100px; */
 }
 
-.bio h2{
+.bio h2 {
     text-align: left;
     text-transform: lowercase;
     font-size: 2rem;
     font-weight: 300;
 }
 
-.bio p{
+.bio p {
     text-align: left;
     padding-bottom: 80px;
     line-height: 2rem;
 }
 
-.bio h5{
+.bio h5 {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 0.8rem;
@@ -402,7 +411,7 @@ footer h1{
     padding-bottom: 40px;
 }
 
-.bio h6{
+.bio h6 {
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: 400;
@@ -411,24 +420,29 @@ footer h1{
     width: 30%;
     color: gray;
 }
-@media screen and (max-width: 450px){
-    .bio-img-container{
+
+@media screen and (max-width: 450px) {
+    .bio-img-container {
         width: 100%;
         /* height: 70vh; */
     }
-   .bio{
-    margin: 0;
-    margin-right: 20px;
-    width: 100%;
-   }
-   .bio p{
-    padding-bottom: 20px;
-   }
-   .bio h6  {
-    width: 80%;
-   }
+
+    .bio {
+        margin: 0;
+        margin-right: 20px;
+        width: 100%;
+    }
+
+    .bio p {
+        padding-bottom: 20px;
+    }
+
+    .bio h6 {
+        width: 80%;
+    }
 }
-.mensajeame{
+
+.mensajeame {
     background-color: #EDEEED;
     padding: 160px 120px 140px 120px;
     display: flex;
@@ -436,13 +450,13 @@ footer h1{
     align-items: center;
 }
 
-.mensajeame p{
+.mensajeame p {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 0.86rem;
 }
 
-.mensajeame h2{
+.mensajeame h2 {
     text-transform: inherit;
     font-size: 2.6rem;
     font-weight: 300;
@@ -450,7 +464,7 @@ footer h1{
     padding-bottom: 40px;
 }
 
-.mensajeame h3{
+.mensajeame h3 {
     font-size: 1rem;
     letter-spacing: 0.2em;
     margin-top: 40px;
@@ -458,10 +472,12 @@ footer h1{
     background-color: #CCCDCC;
     color: #5B5B5A;
 }
-@media screen and (max-width: 450px){
+
+@media screen and (max-width: 450px) {
     .mensajeame {
         padding: 80px 50px;
     }
+
     .mensajeame h2 {
         font-size: 2rem;
     }
@@ -474,7 +490,7 @@ footer h1{
     grid-template-columns: auto auto auto auto;
     gap: 20px;
     margin: 80px;
-    }
+}
 
 .grid-container div {
     display: flex;
@@ -486,20 +502,22 @@ footer h1{
     grid-column: 1 / 5;
 }
 
-.trabajemosjuntos{
-    margin: 160px;
+
+
+.trabajemosjuntos {
+    padding: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.trabajemosjuntos p{
+.trabajemosjuntos p {
     text-transform: uppercase;
     letter-spacing: 0.4em;
     font-size: 0.8rem;
 }
 
-.trabajemosjuntos h2{
+.trabajemosjuntos h2 {
     text-transform: inherit;
     font-size: 2.2rem;
     font-weight: 300;
@@ -508,7 +526,7 @@ footer h1{
     padding-bottom: 40px;
 }
 
-.trabajemosjuntos h3{
+.trabajemosjuntos h3 {
     background-color: #32373A;
     padding: 16px 36px;
     font-size: 0.8rem;
@@ -517,6 +535,30 @@ footer h1{
     margin-top: 70px;
     color: #CDCCCD;
 }
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+        gap: 10px;
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+    .grid-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .item1 {
+        grid-column: 1 / 3;
+    }
+    .trabajemosjuntos{
+        width: 100%;
+        padding:100px 0px;
+    }
+    .trabajemosjuntos h2 {
+        padding: 10px 50px;
+    }
+}
 
 /*---- BLOG ----*/
 
@@ -524,7 +566,7 @@ footer h1{
     margin: 80px 500px;
 }
 
-.intencional h2{
+.intencional h2 {
     font-size: 4.4rem;
     font-weight: 200;
     letter-spacing: 0.02em;
@@ -532,19 +574,19 @@ footer h1{
     padding-bottom: 10px;
 }
 
-.intencional p{
+.intencional p {
     font-size: 0.78rem;
     line-height: 1.2rem;
     text-transform: uppercase;
 }
 
-.cards-intencional{
+.cards-intencional {
     width: 80%;
     margin: 0 auto;
     display: grid;
 }
 
-.cards-intencional .notas{
+.cards-intencional .notas {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -552,19 +594,19 @@ footer h1{
     margin-bottom: 140px;
 }
 
-.cards-intencional p{
+.cards-intencional p {
     font-size: 0.96rem;
     line-height: 1.6rem;
     margin: 0px 120px;
 }
 
-.cards-intencional h2{
+.cards-intencional h2 {
     text-transform: initial;
     font-size: 2rem;
     margin: 40px 80px 30px 80px;
 }
 
-.cards-intencional .notas h3{
+.cards-intencional .notas h3 {
     background-color: #000000;
     padding: 16px 36px;
     font-size: 0.8rem;
@@ -577,7 +619,7 @@ footer h1{
 
 /*---- CONTACTO ----*/
 
-.cabezalcontacto{
+.cabezalcontacto {
     width: 100%;
     height: calc(100vh - 80px);
     background-image: url(../img/contacto.jpg);
@@ -591,27 +633,27 @@ footer h1{
     padding-bottom: 78px;
 }
 
-.cabezalcontacto p{
+.cabezalcontacto p {
     letter-spacing: 0.4em;
     font-size: 0.9rem;
     margin-bottom: 0.3rem;
 }
 
-.cabezalcontacto h2{
+.cabezalcontacto h2 {
     text-transform: inherit;
     font-size: 2.4rem;
     font-weight: 300;
     line-height: 3rem;
 }
 
-.contacto{
+.contacto {
     width: 86%;
     margin: 0 auto;
     margin-top: -220px;
     margin-bottom: 160px;
 }
 
-.contactotexto{
+.contactotexto {
     width: 80%;
     margin: 0 auto;
     display: grid;
@@ -623,7 +665,7 @@ footer h1{
     margin-top: -240px;
 }
 
-.contactotexto p{
+.contactotexto p {
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.9rem;
@@ -632,16 +674,16 @@ footer h1{
 }
 
 
-.formulario div h2{
-text-align: center;
-letter-spacing: 0.02em;
-font-weight: 300;
-font-size: 2.4rem;
-margin-bottom: 100px;
-text-transform: inherit;
+.formulario div h2 {
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin-bottom: 100px;
+    text-transform: inherit;
 }
 
-.formulario .formulario-ok{
+.formulario .formulario-ok {
     width: 66%;
     margin: 0 auto;
     margin-bottom: 160px;
@@ -665,25 +707,26 @@ text-transform: inherit;
 
 
 /*---- MEDIA QUERY ----*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+
     /*---- INDEX ----*/
-    .hero h2{
+    .hero h2 {
         font-size: 5rem;
         line-height: 5rem;
         font-weight: 200;
         padding: 0 150px;
     }
 
-    .hero p{
+    .hero p {
         font-size: 1.4rem;
         padding: 0 150px;
     }
 
-    .bienvenido div h2{
+    .bienvenido div h2 {
         font-size: 3.4rem;
     }
 
-    .bienvenido div p{
+    .bienvenido div p {
         font-size: 1.4rem;
         line-height: 1.9rem;
         margin: 0 100px;
@@ -693,27 +736,27 @@ text-transform: inherit;
         display: flex;
         flex-direction: column;
         height: 100vh;
-}
+    }
 
-    .portfolio .content{
+    .portfolio .content {
         height: 780px;
     }
 
-    .portfolio h2{
+    .portfolio h2 {
         font-size: 2rem;
     }
 
-    .portfolio p{
+    .portfolio p {
         font-size: 1.5rem;
     }
 
-    .portfolio .ver{
+    .portfolio .ver {
         font-size: 1.6rem;
     }
-    
-    .menu-clientes{
+
+    .menu-clientes {
         flex-direction: column;
-        align-items: flex-start ;
+        align-items: flex-start;
     }
 
     .cards-clientes {
@@ -721,80 +764,69 @@ text-transform: inherit;
         row-gap: 150px;
     }
 
-    .clientes h2{
+    .clientes h2 {
         font-size: 1.6rem;
     }
 
-    .clientes h3{
+    .clientes h3 {
         font-size: 1rem;
     }
 
-    .cards-clientes p{
+    .cards-clientes p {
         font-size: 1.3rem;
         line-height: 2.6rem;
     }
 
-    .cards-clientes h4{
+    .cards-clientes h4 {
         font-size: 1.3rem;
         line-height: 2rem;
     }
 
     /*---- ACERCA DE MI ----*/
-    .presentacion{
+    .presentacion {
         width: 100%;
         margin: 0 auto;
         flex-wrap: nowrap;
     }
 
-    .bajada{
-        /* margin: 0 100px 0 90px; */
-    }
 
-    .bajada p{
+    .bajada p {
         text-align: left;
         margin-right: 120px;
     }
 
-    .acercade{
+    .acercade {
         flex-direction: column-reverse;
     }
 
-    .acercade .bio{
+    .acercade .bio {
         margin: 0;
         margin-top: 60px;
         /* padding-right: 60px; */
     }
 
-    .acercade .bio h6{
-        /* padding-right: 140px; */
-    }
-
-    /*---- PORTFOLIO ----*/
-    .trabajemosjuntos{
-        margin: 60px;
-    }
 
     /*---- BLOG ----*/
-    .intencional{
-    width: 100%;
-    margin: 0 auto;
+    .intencional {
+        width: 100%;
+        margin: 0 auto;
     }
 
-    .intencional div h2 p{
+    .intencional div h2 p {
         padding: 0 120px 0 90px;
         text-align: left;
     }
 
     /*---- CONTACTO ----*/
-    .cabezalcontacto{
+    .cabezalcontacto {
         padding-top: 160px;
     }
-    
+
     .formulario div h2 {
         padding: 0 80px;
     }
 
-    footer{
+    footer {
         justify-items: center;
         flex-direction: column;
         width: 90%;
@@ -804,134 +836,134 @@ text-transform: inherit;
         gap: 60px;
     }
 
-    .footer-div{
+    .footer-div {
         width: 80%;
     }
 
-    .footer-div .logo{
+    .footer-div .logo {
         display: none;
     }
 
-    .footer-div h2{
+    .footer-div h2 {
         font-size: 1.9rem;
     }
 
-    .footer-div p{
+    .footer-div p {
         font-size: 1.4rem;
-        line-height: 1.9rem;    
+        line-height: 1.9rem;
     }
 
-    .footer-div .btn-contacto{
+    .footer-div .btn-contacto {
         font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width: 450px){
-.navbar{
-    padding: 20px;
-}
+@media screen and (max-width: 450px) {
+    .navbar {
+        padding: 20px;
+    }
 
-.navbar-brand{
-    font-size: 1.9rem;
-}
+    .navbar-brand {
+        font-size: 1.9rem;
+    }
 
-.hero{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 350px;
-}
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 350px;
+    }
 
-.hero h2{
-    font-size: 3rem;
-    line-height: 3rem;
-    font-weight: 200;
-    padding: 0 30px;
-}
+    .hero h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 200;
+        padding: 0 30px;
+    }
 
-.hero p{
-    font-size: 0.8rem;
-    padding: 0 30px;
-}
+    .hero p {
+        font-size: 0.8rem;
+        padding: 0 30px;
+    }
 
-.bienvenido{
-    padding-top: 100px;
-    padding-bottom: 30px;
-}
+    .bienvenido {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
 
-.bienvenido div h2{
-    font-size: 2rem;
-}
+    .bienvenido div h2 {
+        font-size: 2rem;
+    }
 
-.bienvenido div p{
-    font-size: 0.8rem;
-    line-height: 1.3rem;
-    margin: 0 35px;
-}
+    .bienvenido div p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        margin: 0 35px;
+    }
 
-.portfolio h2{
-    font-size: 1.2rem;
-    padding-bottom: 0;
-}
+    .portfolio h2 {
+        font-size: 1.2rem;
+        padding-bottom: 0;
+    }
 
-.portfolio p{
-    font-size: 0.9rem;
-    padding: 0 20px 0 20px;
-}
+    .portfolio p {
+        font-size: 0.9rem;
+        padding: 0 20px 0 20px;
+    }
 
-.portfolio .ver{
-    font-size: 1.1rem;
-}
+    .portfolio .ver {
+        font-size: 1.1rem;
+    }
 
-.clientes{
-    padding: 0 10%;
-}
+    .clientes {
+        padding: 0 10%;
+    }
 
-.clientes h2{
-    font-size: 1.2rem;
-    text-align: left;
-}
+    .clientes h2 {
+        font-size: 1.2rem;
+        text-align: left;
+    }
 
-.clientes h3{
-    font-size: 0.7rem;
-}
+    .clientes h3 {
+        font-size: 0.7rem;
+    }
 
-.cards-clientes {
-    row-gap: 80px;
-}
+    .cards-clientes {
+        row-gap: 80px;
+    }
 
-.cards-clientes p{
-    font-size: 0.9rem;
-    line-height: 1.6rem;
-    padding: 0;
-}
+    .cards-clientes p {
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+        padding: 0;
+    }
 
-.cards-clientes h4{
-    font-size: 0.9rem;
-    line-height: 1.3rem;
-}
+    .cards-clientes h4 {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
 
-footer{
-    width: 100%;
-    margin: 0 0 50px 0;
-}
+    footer {
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
 
-.footer-div h2{
-    font-size: 1.4rem;
-    font-weight: 500;
-}
+    .footer-div h2 {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
 
-.footer-div p{
-    font-size: 0.9rem;
-    line-height: 1.2rem;    
-}
+    .footer-div p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
 
-.footer-div .redes{
-    margin-top: -10px;
-}
+    .footer-div .redes {
+        margin-top: -10px;
+    }
 
-.footer-div .btn-contacto{
-    font-size: 0.7rem;
-    margin-top: -10px;
-}
+    .footer-div .btn-contacto {
+        font-size: 0.7rem;
+        margin-top: -10px;
+    }
 }
