@@ -299,7 +299,16 @@ footer h1{
 }
 
 /*---- ACERCADEMI ----*/
-
+.acercademi-container {
+    margin: 0px 85px;
+    
+}
+@media screen and (max-width: 450px){
+    .acercademi-container {
+        margin: 0 35px;
+        
+    }  
+}
 .presentacion {
     display: flex;
     flex-direction: column;
@@ -308,6 +317,26 @@ footer h1{
     margin-top: 80px;
     margin-bottom: 100px;
 }
+.encabezado-img-container{
+    width: 100%;
+    overflow: hidden;
+}
+.encabezado-img-container .presentacion-image{
+    width: 100%;
+    background-image: url(../img/presentacion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+
+}
+@media screen and (max-width: 450px){
+    .presentacion-image{
+        height: 500px;
+        background-size: 320%;
+    }
+}
+
 
 .bajada{
     display: flex;
@@ -332,14 +361,23 @@ footer h1{
 
 .acercade{
     display: flex;
-    margin: 80px;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 80px 0;
+    margin-top: 100px;
+
+}
+.bio-img-container{
+    width: 35%;
+    overflow: hidden;
 }
 
 .bio{
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .bio h2{
@@ -370,10 +408,26 @@ footer h1{
     font-weight: 400;
     letter-spacing: 0.2em;
     line-height: 1.2rem;
-    padding-right: 240px;
+    width: 30%;
     color: gray;
 }
-
+@media screen and (max-width: 450px){
+    .bio-img-container{
+        width: 100%;
+        /* height: 70vh; */
+    }
+   .bio{
+    margin: 0;
+    margin-right: 20px;
+    width: 100%;
+   }
+   .bio p{
+    padding-bottom: 20px;
+   }
+   .bio h6  {
+    width: 80%;
+   }
+}
 .mensajeame{
     background-color: #EDEEED;
     padding: 160px 120px 140px 120px;
@@ -404,7 +458,14 @@ footer h1{
     background-color: #CCCDCC;
     color: #5B5B5A;
 }
-
+@media screen and (max-width: 450px){
+    .mensajeame {
+        padding: 80px 50px;
+    }
+    .mensajeame h2 {
+        font-size: 2rem;
+    }
+}
 
 /*---- PORTOFOLIO ----*/
 
@@ -605,6 +666,7 @@ text-transform: inherit;
 
 /*---- MEDIA QUERY ----*/
 @media screen and (max-width: 768px){
+    /*---- INDEX ----*/
     .hero h2{
         font-size: 5rem;
         line-height: 5rem;
@@ -677,6 +739,61 @@ text-transform: inherit;
         line-height: 2rem;
     }
 
+    /*---- ACERCA DE MI ----*/
+    .presentacion{
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+    }
+
+    .bajada{
+        /* margin: 0 100px 0 90px; */
+    }
+
+    .bajada p{
+        text-align: left;
+        margin-right: 120px;
+    }
+
+    .acercade{
+        flex-direction: column-reverse;
+    }
+
+    .acercade .bio{
+        margin: 0;
+        margin-top: 60px;
+        /* padding-right: 60px; */
+    }
+
+    .acercade .bio h6{
+        /* padding-right: 140px; */
+    }
+
+    /*---- PORTFOLIO ----*/
+    .trabajemosjuntos{
+        margin: 60px;
+    }
+
+    /*---- BLOG ----*/
+    .intencional{
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    .intencional div h2 p{
+        padding: 0 120px 0 90px;
+        text-align: left;
+    }
+
+    /*---- CONTACTO ----*/
+    .cabezalcontacto{
+        padding-top: 160px;
+    }
+    
+    .formulario div h2 {
+        padding: 0 80px;
+    }
+
     footer{
         justify-items: center;
         flex-direction: column;
@@ -709,7 +826,7 @@ text-transform: inherit;
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 450px){
 .navbar{
     padding: 20px;
 }
