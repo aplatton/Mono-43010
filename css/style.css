@@ -320,7 +320,7 @@ footer h1 {
     align-content: center;
     flex-wrap: wrap;
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .encabezado-img-container {
@@ -475,12 +475,29 @@ footer h1 {
 
 @media screen and (max-width: 450px) {
     .mensajeame {
-        padding: 80px 50px;
+    padding: 80px 50px;
     }
 
     .mensajeame h2 {
-        font-size: 2rem;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
     }
+}
+
+.trabajemosjuntos h2{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 40px;
+}
+
+.cards-intencional h2{
+    font-weight: 300;
+    line-height: 3rem;
+    margin-bottom: 8px;
+}
+
+.contactotexto{
+    margin-top: -40px;
 }
 
 /*---- PORTOFOLIO ----*/
@@ -998,6 +1015,22 @@ footer h1 {
         line-height: 1.3rem;
     }
 
+.presentacion{
+    margin-top: 10%;
+}
+
+    .bajada h3{
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+}
+    }
+
+    .vertical-img-wrap{
+        width: 90%;
+        height: 500px;
+        overflow: hidden;
+    }
+
     footer {
         width: 100%;
         margin: 0 0 50px 0;
@@ -1021,9 +1054,3 @@ footer h1 {
         font-size: 0.7rem;
         margin-top: -10px;
     }
-    .vertical-img-wrap{
-        width: 90%;
-        height: 500px;
-        overflow: hidden;
-    }
-}
