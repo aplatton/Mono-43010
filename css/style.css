@@ -180,16 +180,19 @@ div p {
     display: inline-block;
 }
 
-.clientes h3 {
+.clientes .btn-vermas {
     letter-spacing: 0.3em;
     font-size: 0.7rem;
     font-weight: 400;
     text-transform: uppercase;
     display: inline-block;
+    color:#000000
 }
 
-.clientes h3:hover {
-    color: #c1bcbc
+.clientes .btn-vermas:hover {
+    text-decoration: none;
+    color: #c1bcbc;
+
 }
 
 .cards-clientes {
@@ -464,13 +467,18 @@ footer h1 {
     padding-bottom: 40px;
 }
 
-.mensajeame h3 {
+.btn-mensajeame {
     font-size: 1rem;
     letter-spacing: 0.2em;
     margin-top: 40px;
     padding: 10px 30px;
     background-color: #CCCDCC;
     color: #5B5B5A;
+}
+
+.btn-mensajeame:hover{
+    text-decoration: none;
+    color: #1e1e1e
 }
 
 @media screen and (max-width: 450px) {
