@@ -307,13 +307,11 @@ footer h1 {
 /*---- ACERCADEMI ----*/
 .acercademi-container {
     margin: 0px 85px;
-
 }
 
 @media screen and (max-width: 450px) {
     .acercademi-container {
         margin: 0 35px;
-
     }
 }
 
@@ -389,7 +387,6 @@ footer h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-left: 100px; */
 }
 
 .bio h2 {
@@ -405,18 +402,17 @@ footer h1 {
 .bio ::after {
     content: "";
     position: absolute;
-    bottom: 0; /* Ajusta el valor para controlar la posición del subrayado */
-    left: 0; /* Inicialmente, el subrayado comenzará desde la izquierda */
-    width: 0; /* Inicialmente, el subrayado tiene ancho cero */
-    height: 50px; /* Ajusta el valor para controlar el grosor del subrayado */
-    background-color: rgba(149, 149, 149, 0.147); /* Ajusta el color del subrayado con transparencia */
-    transform-origin: left; /* El subrayado se expandirá desde la izquierda */
-    transition: width 0.8s ease; /* Ajusta la velocidad de la transición según tus preferencias */
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 50px;
+    background-color: rgba(149, 149, 149, 0.147);
+    transform-origin: left;
+    transition: width 0.8s ease;
 }
 
-/* Efecto de subrayado en hover */
 .bio h2.subrayado-hover:hover::after {
-    width: 100%; /* Al pasar el ratón, el subrayado se expandirá hacia la derecha */
+    width: 100%;
 }
 
 .bio p {
@@ -447,7 +443,6 @@ footer h1 {
 @media screen and (max-width: 450px) {
     .bio-img-container {
         width: 100%;
-        /* height: 70vh; */
     }
 
     .bio {
@@ -756,7 +751,6 @@ footer h1 {
     width: 80%;
     margin: 0 auto;
     display: grid;
-    /* padding: 80px 140px 50px 140px; */
     background-color: #EFF0F0;
     display: flex;
     flex-direction: row;
@@ -884,12 +878,12 @@ footer h1 {
     }
 
     /*---- ACERCA DE MI ----*/
+    
     .presentacion {
         width: 100%;
         margin: 0 auto;
         flex-wrap: nowrap;
     }
-
 
     .bajada p {
         text-align: left;
@@ -907,7 +901,6 @@ footer h1 {
     .acercade .bio {
         margin: 0;
         margin-top: 60px;
-        /* padding-right: 60px; */
     }
 
 
