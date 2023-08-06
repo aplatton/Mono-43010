@@ -397,6 +397,26 @@ footer h1 {
     text-transform: lowercase;
     font-size: 2rem;
     font-weight: 300;
+    position: relative;
+    display: inline-block;
+    width: 34%;
+}
+
+.bio ::after {
+    content: "";
+    position: absolute;
+    bottom: 0; /* Ajusta el valor para controlar la posición del subrayado */
+    left: 0; /* Inicialmente, el subrayado comenzará desde la izquierda */
+    width: 0; /* Inicialmente, el subrayado tiene ancho cero */
+    height: 50px; /* Ajusta el valor para controlar el grosor del subrayado */
+    background-color: rgba(149, 149, 149, 0.147); /* Ajusta el color del subrayado con transparencia */
+    transform-origin: left; /* El subrayado se expandirá desde la izquierda */
+    transition: width 0.8s ease; /* Ajusta la velocidad de la transición según tus preferencias */
+}
+
+/* Efecto de subrayado en hover */
+.bio h2.subrayado-hover:hover::after {
+    width: 100%; /* Al pasar el ratón, el subrayado se expandirá hacia la derecha */
 }
 
 .bio p {
