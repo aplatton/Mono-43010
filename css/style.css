@@ -252,13 +252,6 @@ footer {
     margin-bottom: 80px;
 }
 
-footer h1 {
-    font-size: 2.3rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-}
-
 .footer-div {
     width: 33%;
     height: auto;
@@ -266,6 +259,12 @@ footer h1 {
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+
+.footer-div .seguime .div h2{
+    font-size: 0.08rem;
+    letter-spacing: 0.2em;
+    font-weight: 600;
 }
 
 .footer-div div a i {
@@ -279,8 +278,15 @@ footer h1 {
     opacity: 100%;
 }
 
-.footer-div .logo h2 {
-    font-size: 1.2rem;
+.footer-div.logo h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-transform: uppercase!important;
+    letter-spacing: 0.03em;
+}
+
+.footer-div .encontacto div h2 {
+    font-size: 1rem;
     letter-spacing: 0.2em;
     font-weight: 600;
 }

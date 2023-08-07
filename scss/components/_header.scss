@@ -1,0 +1,25 @@
+.nav {
+    background-color: #e1e1d8;
+}
+
+.navbar {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.navbar-brand {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.9rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}

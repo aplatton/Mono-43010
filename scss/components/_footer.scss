@@ -1,0 +1,41 @@
+footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    }
+
+    .footer-div {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    }
+
+    .footer-div h2{
+        font-size: 1.4rem;
+        letter-spacing: 0.12em;
+        font-weight: 500;
+        text-transform: uppercase;
+
+    }
+
+    .footer-div div a i {
+    color: #3c3c3c;
+    font-size: 36px;
+    padding: 0 8px;
+    opacity: 0.7;
+    &:hover{
+        opacity: 1;
+    }
+    }
+
+    .footer-div.logo h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-transform: uppercase !important;
+    letter-spacing: 0.03em;
+    margin-top: -4px;    }

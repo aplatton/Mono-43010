@@ -11,3 +11,258 @@ body {
 
 a {
   text-decoration: none; }
+
+/*---- INDEX ----*/
+.btn-vermas {
+  letter-spacing: 0.3em;
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000000; }
+  .btn-vermas:hover {
+    text-decoration: none;
+    color: #c1bcbc; }
+
+/*---- carousel ----*/
+.cards h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4em; }
+
+.newblog {
+  margin-bottom: 120px; }
+
+.carousel-item h5 {
+  font-size: 2rem;
+  font-weight: 300; }
+
+.carousel-item p {
+  font-size: 1.3rem;
+  font-weight: 300; }
+
+/*---- SEPARADOR ----*/
+hr.solid {
+  border-top: 1.2px solid #3c3c3c;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-bottom: 80px; }
+
+/*---- FOOTER ----*/
+.btn-contacto {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  margin-top: 40px;
+  padding: 10px 30px;
+  background-color: #454343;
+  color: #dcdcdc;
+  text-transform: uppercase;
+  margin: 0 140px;
+  width: auto;
+  margin: auto; }
+  .btn-contacto:hover {
+    background-color: #000000;
+    text-decoration: none;
+    color: #b4b4b2; }
+
+.nav {
+  background-color: #e1e1d8; }
+
+.navbar {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.navbar-brand {
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em; }
+
+.navbar-nav {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.9rem; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+/*---- INDEX ----*/
+.hero {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url(../img/apertura.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 78px; }
+  .hero h2 {
+    font-size: 4rem;
+    font-weight: 200; }
+  .hero p {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.76rem;
+    font-weight: 500;
+    margin-top: 10px; }
+
+.bienvenido {
+  padding-top: 200px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .bienvenido div {
+    margin-bottom: 36px; }
+  .bienvenido div h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 5px; }
+  .bienvenido div p {
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.5rem; }
+
+.portfolio {
+  height: 649px;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  .portfolio .retratos {
+    background-image: url(../img/portfolio1b.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 180px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .portfolio .retratos h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      text-align: center;
+      padding-bottom: 8px; }
+    .portfolio .retratos p {
+      font-size: 0, 9rem;
+      font-weight: 300;
+      letter-spacing: 0.09em;
+      padding-bottom: 22px;
+      text-align: center; }
+    .portfolio .retratos .ver {
+      letter-spacing: 0.1em;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      text-decoration: none;
+      color: #fff; }
+      .portfolio .retratos .ver:hover {
+        color: #c1bcbc; }
+
+.naturaleza {
+  background-image: url(../img/portfolio2b.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 180px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .naturaleza h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    text-align: center;
+    padding-bottom: 8px; }
+  .naturaleza p {
+    font-size: 0, 9rem;
+    font-weight: 300;
+    letter-spacing: 0.09em;
+    padding-bottom: 22px;
+    text-align: center; }
+  .naturaleza .ver {
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; }
+    .naturaleza .ver:hover {
+      color: #c1bcbc; }
+
+.clientes {
+  padding: 0 80px;
+  margin-bottom: 80px; }
+  .clientes .menu-clientes {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between; }
+    .clientes .menu-clientes h2 {
+      letter-spacing: 0.2em;
+      font-size: 1.1rem;
+      font-weight: 400;
+      text-transform: lowercase;
+      display: inline-block; }
+  .clientes .cards-clientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px; }
+    .clientes .cards-clientes img {
+      padding-bottom: 40px; }
+    .clientes .cards-clientes p {
+      line-height: 1.7rem;
+      font-size: 0.9rem;
+      font-weight: 300;
+      padding-right: 80px;
+      text-align: left;
+      padding-bottom: 40px; }
+  .clientes h4 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4em; }
+
+footer {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px; }
+
+.footer-div {
+  width: 33%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+
+.footer-div h2 {
+  font-size: 1.4rem;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.footer-div div a i {
+  color: #3c3c3c;
+  font-size: 36px;
+  padding: 0 8px;
+  opacity: 0.7; }
+  .footer-div div a i:hover {
+    opacity: 1; }
+
+.footer-div.logo h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: uppercase !important;
+  letter-spacing: 0.03em;
+  margin-top: -4px; }
