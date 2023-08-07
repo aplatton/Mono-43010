@@ -402,6 +402,70 @@ hr.solid {
     font-size: 0.8rem;
     text-align: center; }
 
+/*---- BLOG ----*/
+.intencional {
+  margin: 80px 0 100px 0; }
+  .intencional div {
+    text-align: center; }
+    .intencional div h2 {
+      font-size: 4.4rem;
+      font-weight: 200;
+      letter-spacing: 0.02em;
+      text-transform: inherit;
+      padding-bottom: 10px; }
+    .intencional div p {
+      font-size: 0.78rem;
+      line-height: 1.2rem;
+      text-transform: uppercase; }
+
+.cards-intencional {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  text-align: center; }
+  .cards-intencional .notas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 140px; }
+    .cards-intencional .notas p {
+      font-size: 1rem;
+      line-height: 1.6rem;
+      margin: 0px;
+      width: 60%; }
+    .cards-intencional .notas h2 {
+      text-transform: initial;
+      font-size: 2rem;
+      width: 60%;
+      margin: 50px auto;
+      margin-bottom: 3%; }
+    .cards-intencional .notas h3 {
+      background-color: #000000;
+      padding: 16px 36px;
+      font-size: 0.8rem;
+      letter-spacing: 0.3em;
+      font-weight: 500;
+      margin-top: 40px;
+      color: white; }
+    .cards-intencional .notas .image-wrap {
+      width: 80%;
+      height: 500px;
+      overflow: hidden;
+      margin-top: 3%; }
+    .cards-intencional .notas .first-img-container,
+    .cards-intencional .notas .second-img-container,
+    .cards-intencional .notas .third-img-container {
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .cards-intencional .notas .first-img-container {
+      background-image: url(../img/intencional1b.jpg); }
+    .cards-intencional .notas .second-img-container {
+      background-image: url(../img/intencional2c.jpg); }
+    .cards-intencional .notas .third-img-container {
+      background-image: url(../img/intencional3b.jpg); }
+
 footer {
   padding-left: 5%;
   padding-right: 5%;

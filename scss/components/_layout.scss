@@ -391,3 +391,92 @@
         text-align: center;
     }
 }
+
+/*---- BLOG ----*/  
+
+.intencional{
+    margin: 80px 0 100px 0;
+    div{
+        text-align: center;
+        h2{
+            font-size: 4.4rem;
+            font-weight: 200;
+            letter-spacing: 0.02em;
+            text-transform: inherit;
+            padding-bottom: 10px;
+        }
+        p{
+            font-size: 0.78rem;
+            line-height: 1.2rem;
+            text-transform: uppercase;
+
+        }
+    }
+}
+
+.cards-intencional{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+
+    .notas{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 140px;
+
+        p{
+            font-size: 1rem;
+            line-height: 1.6rem;
+            margin: 0px;
+            width: 60%;
+        }
+        
+            h2{
+                text-transform: initial;
+                font-size: 2rem;
+                width: 60%;
+                margin: 50px auto;
+                margin-bottom: 3%;
+
+            }
+
+            h3{
+                background-color: #000000;
+                padding: 16px 36px;
+                font-size: 0.8rem;
+                letter-spacing: 0.3em;
+                font-weight: 500;
+                margin-top: 40px;
+                color: white;
+
+            }
+        
+        .image-wrap{
+            width: 80%;
+            height: 500px;
+            overflow: hidden;
+            margin-top: 3%;
+        }
+            .first-img-container,
+            .second-img-container,
+            .third-img-container{
+                    height: 100%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+        }
+        
+        .first-img-container{
+        background-image: url(../img/intencional1b.jpg)
+    }
+        .second-img-container{
+            background-image: url(../img/intencional2c.jpg);
+
+        }
+        .third-img-container{
+            background-image: url(../img/intencional3b.jpg);
+    }
+}
+}
