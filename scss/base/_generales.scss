@@ -54,6 +54,21 @@ a {
     font-weight: 300;
 }
 
+/*---- btn-mensajeame ----*/
+
+.btn-mensajeame{
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+    padding: 10px 30px;
+    background-color: #CCCDCC;
+    color: #5B5B5A;
+    &:hover{
+        text-decoration: none;
+        color: #1e1e1e
+    }
+
+}
 
 /*---- SEPARADOR ----*/
 
