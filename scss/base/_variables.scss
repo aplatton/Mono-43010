@@ -1,3 +1,4 @@
+/*---- PALETA DE COLOR ----*/
 $paleta-colores:(
 #e1e1d8,
 #c1bcbc,
@@ -6,3 +7,28 @@ $paleta-colores:(
 #000000,
 #fffFFF
 );
+
+
+@mixin flex-center($padding-top, $background-image) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: $padding-top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: $background-image;
+}
+
+
+@mixin custom-button($font-size, $margin-top, $padding, $background-color, $text-color, $hover-color) {
+    font-size: $font-size;
+    letter-spacing: 0.2em;
+    margin-top: $margin-top;
+    padding: $padding;
+    background-color: $background-color;
+    color: $text-color;
+    &:hover {
+        text-decoration: none;
+        color: $hover-color;
+    }
+}

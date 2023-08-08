@@ -90,28 +90,19 @@
         }
     }
     .retratos{
-        background-image: url(../img/portfolio1b.jpg);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-top: 180px;
-        background-repeat: no-repeat;
-        background-size: cover;
+        @include flex-center(180px, url('../../img/portfolio1b.jpg'));
         
     }
     .naturaleza{
-        background-image: url(../img/portfolio2b.jpg);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-top: 180px;
-        background-repeat: no-repeat;
-        background-size: cover;
+        @include flex-center(180px, url('../../img/portfolio2b.jpg'));
     }
 
 .clientes{
     padding: 0px;
+    width: 90%;
+    margin: auto;
     margin-bottom: 80px;
+
     .menu-clientes{
         margin-top: 110px;
         margin-bottom: 50px;
@@ -269,15 +260,15 @@
                 font-weight: 400;
                 letter-spacing: 0.2em;
                 line-height: 1.2rem;
-                width: 40%;
-                color: nth($paleta-colores, 4);
+                width: 32%;
+                color: nth($paleta-colores, 3);
 
             }
         }
     }
 
     .mensajeame{
-        background-color: #EDEEED;
+        background-color: nth($paleta-colores, 4);
         padding: 160px 120px 140px 120px;
         display: flex;
         flex-direction: column;
@@ -387,7 +378,7 @@
             font-weight: 200;
             letter-spacing: 0.02em;
             text-transform: inherit;
-            padding-bottom: 10px;
+            padding-bottom: 6px;
         }
         p{
             font-size: 0.78rem;
@@ -424,11 +415,12 @@
                 width: 60%;
                 margin: 50px auto;
                 margin-bottom: 3%;
+                font-weight: 300;
 
             }
 
             h3{
-                background-color: #000000;
+                background-color: nth($paleta-colores, 5);
                 padding: 16px 36px;
                 font-size: 0.8rem;
                 letter-spacing: 0.3em;
