@@ -601,22 +601,27 @@ footer {
     font-size: 1.5rem; }
   .portfolio .ver {
     font-size: 1.6rem; }
-  .menu-clientes {
-    flex-direction: column;
-    align-items: flex-start; }
-  .cards-clientes {
-    grid-template-columns: 1fr;
-    row-gap: 150px; }
+  .clientes {
+    padding: 0 40px;
+    margin-bottom: 60px; }
+  .clientes .menu-clientes {
+    margin-top: 80px;
+    margin-bottom: 40px; }
   .clientes h2 {
-    font-size: 1.6rem; }
-  .clientes h3 {
     font-size: 1rem; }
-  .cards-clientes p {
-    font-size: 1.3rem;
-    line-height: 2.6rem; }
-  .cards-clientes h4 {
-    font-size: 1.3rem;
-    line-height: 2rem; }
+  .clientes .btn-vermas {
+    font-size: 0.6rem; }
+  .cards-clientes {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px; }
+  .cards img {
+    padding-bottom: 30px; }
+  .cards p {
+    font-size: 0.8rem;
+    padding-right: 40px;
+    padding-bottom: 30px; }
+  .cards h4 {
+    font-size: 0.8rem; }
   /*---- ACERCA DE MI ----*/
   .presentacion {
     width: 100%;
@@ -725,21 +730,32 @@ footer {
   .portfolio .ver {
     font-size: 1.1rem; }
   .clientes {
-    padding: 0 10%; }
+    padding: 0 20px;
+    margin-bottom: 40px; }
+  .clientes .menu-clientes {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center; }
   .clientes h2 {
-    font-size: 1.2rem;
-    text-align: left; }
-  .clientes h3 {
-    font-size: 0.7rem; }
+    font-size: 0.9rem; }
+  .clientes .btn-vermas {
+    font-size: 0.5rem;
+    margin-top: 10px; }
   .cards-clientes {
-    row-gap: 80px; }
+    grid-template-columns: 1fr; }
   .cards-clientes p {
     font-size: 0.9rem;
     line-height: 1.6rem;
     padding: 0; }
-  .cards-clientes h4 {
-    font-size: 0.9rem;
-    line-height: 1.3rem; }
+  .cards img {
+    padding-bottom: 20px; }
+  .cards p {
+    font-size: 0.7rem;
+    padding-right: 20px;
+    padding-bottom: 20px; }
+  .cards h4 {
+    font-size: 0.7rem; }
   .acercademi-container {
     margin: 0 35px; }
   .presentacion {
