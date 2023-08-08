@@ -25,10 +25,11 @@ a {
     font-weight: 400;
     text-transform: uppercase;
     display: inline-block;
-    color: nth($paleta-colores, 5);
+    color:#000000;
     &:hover{
         text-decoration: none;
         color: nth($paleta-colores, 2);
+
     }
 }
 
@@ -55,11 +56,11 @@ a {
     letter-spacing: 0.2em;
     margin-top: 40px;
     padding: 10px 30px;
-    background-color: nth($paleta-colores, 4);
-    color: nth($paleta-colores, 3);
+    background-color: #CCCDCC;
+    color: #5B5B5A;
     &:hover{
         text-decoration: none;
-        color: nth($paleta-colores, 5);
+        color: #1e1e1e;
     }
 
 }
@@ -67,10 +68,13 @@ a {
 /*---- SEPARADOR ----*/
 
 hr.solid{
-    border-top: 1.2px solid nth($paleta-colores, 3);
-    margin-right: 70px;
-    margin-left: 70px;
+    border-top: 1.2px solid #3c3c3c;
+    // margin-right: 70px;
+    // margin-left: 70px;
+    width: 90%;
+    margin: auto;
     margin-bottom: 80px;
+
 }
 
 /*---- FOOTER ----*/
@@ -80,15 +84,15 @@ hr.solid{
     letter-spacing: 0.2em;
     margin-top: 40px;
     padding: 10px 30px;
-    background-color: nth($paleta-colores, 3);
-    color: nth($paleta-colores, 4);
+    background-color: #454343;
+    color: #dcdcdc;
     text-transform: uppercase;
     margin: 0 140px;
     width: auto;
     margin: auto;
     &:hover{
-    background-color: nth($paleta-colores, 5);
+    background-color: #000000;
     text-decoration: none;
-    color: nth($paleta-colores, 2);
+    color: #b4b4b2;
     }
 }

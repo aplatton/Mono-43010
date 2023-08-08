@@ -59,14 +59,7 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    .retratos{
-        background-image: url(../img/portfolio1b.jpg);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-top: 180px;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .content{
         h2{
             font-size: 1.5rem;
             font-weight: 400;
@@ -96,6 +89,16 @@
         
         }
     }
+    .retratos{
+        background-image: url(../img/portfolio1b.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 180px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
     .naturaleza{
         background-image: url(../img/portfolio2b.jpg);
         display: flex;
@@ -104,37 +107,10 @@
         padding-top: 180px;
         background-repeat: no-repeat;
         background-size: cover;
-        h2{
-            font-size: 1.5rem;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.09em;
-            text-align: center;
-            padding-bottom: 8px;
-
-        }
-        p{
-            font-size: 0, 9rem;
-            font-weight: 300;
-            letter-spacing: 0.09em;
-            padding-bottom: 22px;
-            text-align: center;
-        }
-        .ver{
-                letter-spacing: 0.1em;
-                font-size: 1rem;
-                font-weight: 400;
-                text-align: center;
-                text-decoration: none;
-                color: nth($paleta-colores, 6);
-                &:hover{
-                    color: nth($paleta-colores, 2);
-                }
-            }
-        }
+    }
 
 .clientes{
-    padding: 0 80px;
+    padding: 0px;
     margin-bottom: 80px;
     .menu-clientes{
         margin-top: 110px;
@@ -155,23 +131,26 @@
         grid-column-gap: 40px;
         justify-content: center;
         margin-top: 40px;
-        img{
-            padding-bottom: 40px;
+        width: 100%;
+        .cards{
+            img{
+                padding-bottom: 40px;
+            }
+            p{
+                line-height: 1.7rem;
+                font-size: 0.9rem;
+                font-weight: 300;
+                padding-right: 80px;
+                text-align: left;
+                padding-bottom: 40px;
+    }
+            }
+            h4{
+                font-size: 0.9rem;
+                font-weight: 400;
+                line-height: 1.4em;
+            } 
         }
-        p{
-            line-height: 1.7rem;
-            font-size: 0.9rem;
-            font-weight: 300;
-            padding-right: 80px;
-            text-align: left;
-            padding-bottom: 40px;
-}
-        }
-        h4{
-            font-size: 0.9rem;
-            font-weight: 400;
-            line-height: 1.4em;
-        } 
 
 }
 
