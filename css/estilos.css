@@ -25,11 +25,6 @@ a {
     color: #c1bcbc; }
 
 /*---- carousel ----*/
-.cards h4 {
-  font-size: 0.9rem;
-  font-weight: 400;
-  line-height: 1.4em; }
-
 .newblog {
   margin-bottom: 120px; }
 
@@ -53,7 +48,6 @@ a {
     text-decoration: none;
     color: #1e1e1e; }
 
-/*---- CONTACTO ----*/
 /*---- SEPARADOR ----*/
 hr.solid {
   border-top: 1.2px solid #3c3c3c;
@@ -231,7 +225,9 @@ hr.solid {
   .clientes .cards-clientes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 40px; }
+    grid-column-gap: 40px;
+    justify-content: center;
+    margin-top: 40px; }
     .clientes .cards-clientes img {
       padding-bottom: 40px; }
     .clientes .cards-clientes p {
@@ -576,3 +572,207 @@ footer {
   text-transform: uppercase !important;
   letter-spacing: 0.03em;
   margin-top: -4px; }
+
+@media screen and (max-width: 768px) {
+  /*---- INDEX ----*/
+  .hero h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 200;
+    padding: 0 150px; }
+  .hero p {
+    font-size: 1.4rem;
+    padding: 0 150px; }
+  .bienvenido div h2 {
+    font-size: 3.4rem; }
+  .bienvenido div p {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin: 0 100px; }
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; }
+  .portfolio .content {
+    height: 780px; }
+  .portfolio h2 {
+    font-size: 2rem; }
+  .portfolio p {
+    font-size: 1.5rem; }
+  .portfolio .ver {
+    font-size: 1.6rem; }
+  .menu-clientes {
+    flex-direction: column;
+    align-items: flex-start; }
+  .cards-clientes {
+    grid-template-columns: 1fr;
+    row-gap: 150px; }
+  .clientes h2 {
+    font-size: 1.6rem; }
+  .clientes h3 {
+    font-size: 1rem; }
+  .cards-clientes p {
+    font-size: 1.3rem;
+    line-height: 2.6rem; }
+  .cards-clientes h4 {
+    font-size: 1.3rem;
+    line-height: 2rem; }
+  /*---- ACERCA DE MI ----*/
+  .presentacion {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: nowrap; }
+  .bajada p {
+    text-align: left;
+    margin-right: 120px; }
+  .acercade {
+    flex-direction: column-reverse; }
+  .bio-img-container {
+    width: 100%; }
+  .acercade .bio {
+    margin: 0;
+    margin-top: 60px; }
+  .grid-container {
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: 10px;
+    margin-top: 50px; }
+  .grid-container img {
+    max-width: 100%;
+    height: auto; }
+  .item1 {
+    grid-column: 1 / 3; }
+  .trabajemosjuntos {
+    width: 100%;
+    padding: 100px 0px; }
+  .trabajemosjuntos h2 {
+    padding: 10px 50px; }
+  /*---- BLOG ----*/
+  .intencional {
+    width: 85%;
+    margin: 14% auto;
+    /* margin: 14% 10%; */ }
+  .intencional div h2 p {
+    padding: 0 120px 0 90px;
+    text-align: left; }
+  .cards-intencional h2 {
+    width: 90%; }
+  .cards-intencional p {
+    width: 80%; }
+  /*---- CONTACTO ----*/
+  .cabezalcontacto {
+    padding-top: 160px; }
+  .formulario div h2 {
+    padding: 0 80px; }
+  footer {
+    justify-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 80px;
+    gap: 60px; }
+  .footer-div {
+    width: 80%; }
+  .footer-div .logo {
+    display: none; }
+  .footer-div h2 {
+    font-size: 1.9rem; }
+  .footer-div p {
+    font-size: 1.4rem;
+    line-height: 1.9rem; }
+  .footer-div .btn-contacto {
+    font-size: 1.2rem; }
+  .image-wrap {
+    width: 100%;
+    height: 400px; }
+  .contactotexto {
+    margin-top: -100px; } }
+
+@media screen and (max-width: 450px) {
+  .navbar {
+    padding: 20px; }
+  .navbar-brand {
+    font-size: 1.9rem; }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px; }
+  .hero h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 200;
+    padding: 0 30px; }
+  .hero p {
+    font-size: 0.8rem;
+    padding: 0 30px; }
+  .bienvenido {
+    padding-top: 100px;
+    padding-bottom: 30px; }
+  .bienvenido div h2 {
+    font-size: 2rem; }
+  .bienvenido div p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin: 0 35px; }
+  .portfolio h2 {
+    font-size: 1.2rem;
+    padding-bottom: 0; }
+  .portfolio p {
+    font-size: 0.9rem;
+    padding: 0 20px 0 20px; }
+  .portfolio .ver {
+    font-size: 1.1rem; }
+  .clientes {
+    padding: 0 10%; }
+  .clientes h2 {
+    font-size: 1.2rem;
+    text-align: left; }
+  .clientes h3 {
+    font-size: 0.7rem; }
+  .cards-clientes {
+    row-gap: 80px; }
+  .cards-clientes p {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    padding: 0; }
+  .cards-clientes h4 {
+    font-size: 0.9rem;
+    line-height: 1.3rem; }
+  .acercademi-container {
+    margin: 0 35px; }
+  .presentacion {
+    margin-top: 10%; }
+  .bajada h3 {
+    font-size: 2.3rem;
+    line-height: 2.8rem; }
+  .presentacion-image {
+    height: 500px;
+    background-size: 320%; }
+  .bio-img-container {
+    width: 100%; }
+  .mensajeame {
+    padding: 80px 50px; }
+  .mensajeame h2 {
+    font-size: 1.7rem;
+    line-height: 2.8rem; } }
+
+footer {
+  width: 100%;
+  margin: 0 0 50px 0; }
+
+.footer-div h2 {
+  font-size: 1.4rem;
+  font-weight: 500; }
+
+.footer-div p {
+  font-size: 0.9rem;
+  line-height: 1.2rem; }
+
+.footer-div .redes {
+  margin-top: -10px; }
+
+.footer-div .btn-contacto {
+  font-size: 0.7rem;
+  margin-top: -10px; }

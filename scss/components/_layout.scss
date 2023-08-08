@@ -132,6 +132,7 @@
                 }
             }
         }
+
 .clientes{
     padding: 0 80px;
     margin-bottom: 80px;
@@ -152,6 +153,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 40px;
+        justify-content: center;
+        margin-top: 40px;
         img{
             padding-bottom: 40px;
         }
@@ -168,8 +171,9 @@
             font-size: 0.9rem;
             font-weight: 400;
             line-height: 1.4em;
-        }
-    }
+        } 
+
+}
 
 /*---- ACERCA DE MI ----*/    
 
