@@ -5,7 +5,7 @@
     background-image: url(../img/apertura.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: nth($paleta-colores, 6);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@
 }
 .portfolio{
     height: 649px;
-    color: #fff;
+    color: nth($paleta-colores, 6);
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -88,9 +88,9 @@
                 font-weight: 400;
                 text-align: center;
                 text-decoration: none;
-                color: #fff;
+                color: nth($paleta-colores, 6);
                 &:hover{
-                    color: #c1bcbc;
+                    color: nth($paleta-colores, 2);
                 }
             }
         
@@ -126,9 +126,9 @@
                 font-weight: 400;
                 text-align: center;
                 text-decoration: none;
-                color: #fff;
+                color: nth($paleta-colores, 6);
                 &:hover{
-                    color: #c1bcbc;
+                    color: nth($paleta-colores, 2);
                 }
             }
         }
@@ -273,7 +273,7 @@
                 letter-spacing: 0.2em;
                 font-size: 0.8rem;
                 font-weight: 300;
-                color: #474747;
+                color: nth($paleta-colores, 3);
                 padding-bottom: 40px;
 
             }
@@ -291,7 +291,7 @@
                 letter-spacing: 0.2em;
                 line-height: 1.2rem;
                 width: 40%;
-                color: gray;
+                color: nth($paleta-colores, 4);
 
             }
         }
@@ -455,7 +455,7 @@
                 letter-spacing: 0.3em;
                 font-weight: 500;
                 margin-top: 40px;
-                color: white;
+                color: nth($paleta-colores, 6);
 
             }
         
@@ -494,7 +494,7 @@
     background-image: url(../img/contacto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: nth($paleta-colores, 6);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -527,7 +527,7 @@
     width: 80%;
     margin: 0 auto;
     display: grid;
-    background-color: #EFF0F0;
+    background-color: nth($paleta-colores, 4);
     display: flex;
     flex-direction: row;
     margin-bottom: 160px;

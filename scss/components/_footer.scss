@@ -24,7 +24,7 @@ footer {
     }
 
     .footer-div div a i {
-    color: #3c3c3c;
+    color: nth($paleta-colores, 3);
     font-size: 36px;
     padding: 0 8px;
     opacity: 0.7;
