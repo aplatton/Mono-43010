@@ -649,10 +649,10 @@ footer {
     font-size: 1.2rem;
     padding-bottom: 0; }
   .portfolio .content p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 0 20px 0 20px; }
   .portfolio .content .ver {
-    font-size: 1.1rem; }
+    font-size: 1rem; }
   .clientes {
     padding: 0 20px;
     margin-bottom: 40px; }
@@ -673,11 +673,11 @@ footer {
       .clientes .cards-clientes .cards img {
         padding-bottom: 20px; }
       .clientes .cards-clientes .cards p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         padding-right: 20px;
         padding-bottom: 20px; }
       .clientes .cards-clientes .cards h4 {
-        font-size: 0.7rem; }
+        font-size: 0.75rem; }
   .trabajemosjuntos div h2 {
     font-size: 1.8rem;
     padding: 20px 0;
@@ -685,6 +685,15 @@ footer {
     margin: auto; }
   .acercademi-container {
     margin: 0 35px; }
+  .acercademi-container .mensajeame {
+    padding: 80px 60px 70px 60px; }
+  .acercademi-container .mensajeame div h2 {
+    font-size: 2.2rem;
+    line-height: 3rem; }
+  .acercademi-container .presentacion .bajada p {
+    font-size: 0.7rem; }
+  .acercademi-container .acercade .bio h6 {
+    width: 100%; }
   .presentacion {
     margin-top: 10%; }
   .bajada h3 {
