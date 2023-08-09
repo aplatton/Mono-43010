@@ -110,7 +110,7 @@
         justify-content: space-between;
         h2{
             letter-spacing: 0.2em;
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 400;
             text-transform: lowercase;
             display: inline-block;
@@ -160,11 +160,11 @@
 
         .bajada{
             h3{
-                font-size: 2.6rem;
+                font-size: 2.3rem;
                 font-weight: 300;
-                line-height: 3.2rem;
+                line-height: 2.8rem;
                 padding-bottom: 15px;
-
+                width: 90%;
             }
             p{
                 text-transform: uppercase;
@@ -260,7 +260,7 @@
                 font-weight: 400;
                 letter-spacing: 0.2em;
                 line-height: 1.2rem;
-                width: 32%;
+                width: 66%;
                 color: nth($paleta-colores, 3);
 
             }
@@ -278,15 +278,15 @@
             p{
                 text-transform: uppercase;
                 letter-spacing: 0.2em;
-                font-size: 0.86rem;
+                font-size: 0.8rem;
                 text-align: center;
 
             }
             h2{
                 text-transform: inherit;
-                font-size: 2.6rem;
+                font-size: 2.4rem;
                 font-weight: 300;
-                line-height: 3.5rem;
+                line-height: 3.2rem;
                 padding-bottom: 40px;
                 text-align: center;
 
@@ -412,7 +412,7 @@
             h2{
                 text-transform: initial;
                 font-size: 2rem;
-                width: 60%;
+                width: 50%;
                 margin: 50px auto;
                 margin-bottom: 3%;
                 font-weight: 300;
