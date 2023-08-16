@@ -97,15 +97,7 @@
     .portfolio .content .ver:hover {
       color: #c1bcbc; }
 
-.retratos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 180px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../../img/portfolio1b.jpg"); }
-
+.retratos,
 .naturaleza {
   display: flex;
   flex-direction: column;
@@ -113,191 +105,222 @@
   padding-top: 180px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../img/portfolio2b.jpg"); }
-
-.clientes {
-  padding: 0px;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 80px; }
-  .clientes .menu-clientes {
-    margin-top: 110px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-between; }
-    .clientes .menu-clientes h2 {
-      letter-spacing: 0.2em;
-      font-size: 1rem;
-      font-weight: 400;
-      text-transform: lowercase;
-      display: inline-block; }
-  .clientes .cards-clientes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 40px;
-    justify-content: center;
-    margin-top: 40px;
-    width: 100%; }
-    .clientes .cards-clientes .cards img {
-      padding-bottom: 40px; }
-    .clientes .cards-clientes .cards p {
-      line-height: 1.7rem;
-      font-size: 0.9rem;
-      font-weight: 300;
-      padding-right: 80px;
-      text-align: left;
-      padding-bottom: 40px; }
-    .clientes .cards-clientes h4 {
-      font-size: 0.9rem;
-      font-weight: 400;
-      line-height: 1.4em; }
-
-/*---- ACERCA DE MI ----*/
-.acercademi-container {
-  margin: 0px 85px; }
-  .acercademi-container .presentacion {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    margin-top: 80px;
-    margin-bottom: 60px; }
-    .acercademi-container .presentacion .bajada h3 {
-      font-size: 2.3rem;
-      font-weight: 300;
-      line-height: 2.8rem;
-      padding-bottom: 15px;
-      width: 90%; }
-    .acercademi-container .presentacion .bajada p {
-      text-transform: uppercase;
-      font-size: 0.8rem;
-      letter-spacing: 0.26em; }
-    .acercademi-container .presentacion .encabezado-img-container {
-      width: 100%;
-      overflow: hidden; }
-      .acercademi-container .presentacion .encabezado-img-container .presentacion-image {
-        width: 100%;
-        background-image: url(../img/presentacion.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 520px;
-        margin-top: 5%; }
-  .acercademi-container .acercade {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    margin: 80px 0;
-    margin-top: 100px; }
-    .acercademi-container .acercade .bio-img-container {
-      width: 35%;
-      overflow: hidden; }
-      .acercademi-container .acercade .bio-img-container img {
-        max-width: 100%;
-        height: auto; }
-    .acercademi-container .acercade .bio {
-      width: 60%;
+  /*---- ACERCA DE MI ----*/
+  /*---- PORTFOLIO ----*/
+  /*---- BLOG ----*/
+  /*---- CONTACTO ----*/ }
+  .retratos .clientes,
+  .naturaleza .clientes {
+    padding: 0px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px; }
+    .retratos .clientes .menu-clientes,
+    .naturaleza .clientes .menu-clientes {
+      margin-top: 110px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between; }
+      .retratos .clientes .menu-clientes h2,
+      .naturaleza .clientes .menu-clientes h2 {
+        letter-spacing: 0.2em;
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: lowercase;
+        display: inline-block; }
+    .retratos .clientes .cards-clientes,
+    .naturaleza .clientes .cards-clientes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 40px;
+      justify-content: center;
+      margin-top: 40px;
+      width: 100%; }
+      .retratos .clientes .cards-clientes .cards img,
+      .naturaleza .clientes .cards-clientes .cards img {
+        padding-bottom: 40px; }
+      .retratos .clientes .cards-clientes .cards p,
+      .naturaleza .clientes .cards-clientes .cards p {
+        line-height: 1.7rem;
+        font-size: 0.9rem;
+        font-weight: 300;
+        padding-right: 80px;
+        text-align: left;
+        padding-bottom: 40px; }
+      .retratos .clientes .cards-clientes h4,
+      .naturaleza .clientes .cards-clientes h4 {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.4em; }
+  .retratos .acercademi-container,
+  .naturaleza .acercademi-container {
+    margin: 0px 85px; }
+    .retratos .acercademi-container .presentacion,
+    .naturaleza .acercademi-container .presentacion {
       display: flex;
       flex-direction: column;
-      justify-content: center; }
-      .acercademi-container .acercade .bio h2 {
-        text-align: left;
-        text-transform: lowercase;
-        font-size: 2rem;
+      align-content: center;
+      flex-wrap: wrap;
+      margin-top: 80px;
+      margin-bottom: 60px; }
+      .retratos .acercademi-container .presentacion .bajada h3,
+      .naturaleza .acercademi-container .presentacion .bajada h3 {
+        font-size: 2.3rem;
         font-weight: 300;
-        position: relative;
-        display: inline-block;
-        width: 28%; }
-        .acercademi-container .acercade .bio h2.subrayado-hover:hover::after {
-          width: 100%; }
-        .acercademi-container .acercade .bio h2::after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 0;
-          height: 50px;
-          background-color: rgba(149, 149, 149, 0.147);
-          transform-origin: left;
-          transition: width 0.8s ease; }
-      .acercademi-container .acercade .bio h5 {
+        line-height: 2.8rem;
+        padding-bottom: 15px;
+        width: 90%; }
+      .retratos .acercademi-container .presentacion .bajada p,
+      .naturaleza .acercademi-container .presentacion .bajada p {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.26em; }
+      .retratos .acercademi-container .presentacion .encabezado-img-container,
+      .naturaleza .acercademi-container .presentacion .encabezado-img-container {
+        width: 100%;
+        overflow: hidden; }
+        .retratos .acercademi-container .presentacion .encabezado-img-container .presentacion-image,
+        .naturaleza .acercademi-container .presentacion .encabezado-img-container .presentacion-image {
+          width: 100%;
+          background-image: url(../img/presentacion.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 520px;
+          margin-top: 5%; }
+    .retratos .acercademi-container .acercade,
+    .naturaleza .acercademi-container .acercade {
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+      margin: 80px 0;
+      margin-top: 100px; }
+      .retratos .acercademi-container .acercade .bio-img-container,
+      .naturaleza .acercademi-container .acercade .bio-img-container {
+        width: 35%;
+        overflow: hidden; }
+        .retratos .acercademi-container .acercade .bio-img-container img,
+        .naturaleza .acercademi-container .acercade .bio-img-container img {
+          max-width: 100%;
+          height: auto; }
+      .retratos .acercademi-container .acercade .bio,
+      .naturaleza .acercademi-container .acercade .bio {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .retratos .acercademi-container .acercade .bio h2,
+        .naturaleza .acercademi-container .acercade .bio h2 {
+          text-align: left;
+          text-transform: lowercase;
+          font-size: 2rem;
+          font-weight: 300;
+          position: relative;
+          display: inline-block;
+          width: 28%; }
+          .retratos .acercademi-container .acercade .bio h2.subrayado-hover:hover::after,
+          .naturaleza .acercademi-container .acercade .bio h2.subrayado-hover:hover::after {
+            width: 100%; }
+          .retratos .acercademi-container .acercade .bio h2::after,
+          .naturaleza .acercademi-container .acercade .bio h2::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 50px;
+            background-color: rgba(149, 149, 149, 0.147);
+            transform-origin: left;
+            transition: width 0.8s ease; }
+        .retratos .acercademi-container .acercade .bio h5,
+        .naturaleza .acercademi-container .acercade .bio h5 {
+          text-transform: uppercase;
+          letter-spacing: 0.2em;
+          font-size: 0.8rem;
+          font-weight: 300;
+          color: #3c3c3c;
+          padding-bottom: 40px; }
+        .retratos .acercademi-container .acercade .bio p,
+        .naturaleza .acercademi-container .acercade .bio p {
+          font-size: 1.1rem;
+          text-align: left;
+          padding-bottom: 80px;
+          line-height: 2rem; }
+        .retratos .acercademi-container .acercade .bio h6,
+        .naturaleza .acercademi-container .acercade .bio h6 {
+          text-transform: uppercase;
+          font-size: 0.7rem;
+          font-weight: 400;
+          letter-spacing: 0.2em;
+          line-height: 1.2rem;
+          width: 66%;
+          color: #3c3c3c; }
+    .retratos .acercademi-container .mensajeame,
+    .naturaleza .acercademi-container .mensajeame {
+      background-color: #EFF0F0;
+      padding: 160px 120px 140px 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center !important; }
+      .retratos .acercademi-container .mensajeame div p,
+      .naturaleza .acercademi-container .mensajeame div p {
         text-transform: uppercase;
         letter-spacing: 0.2em;
         font-size: 0.8rem;
+        text-align: center; }
+      .retratos .acercademi-container .mensajeame div h2,
+      .naturaleza .acercademi-container .mensajeame div h2 {
+        text-transform: inherit;
+        font-size: 2.4rem;
         font-weight: 300;
-        color: #3c3c3c;
-        padding-bottom: 40px; }
-      .acercademi-container .acercade .bio p {
-        font-size: 1.1rem;
-        text-align: left;
-        padding-bottom: 80px;
-        line-height: 2rem; }
-      .acercademi-container .acercade .bio h6 {
-        text-transform: uppercase;
-        font-size: 0.7rem;
-        font-weight: 400;
-        letter-spacing: 0.2em;
-        line-height: 1.2rem;
-        width: 66%;
-        color: #3c3c3c; }
-  .acercademi-container .mensajeame {
-    background-color: #EFF0F0;
-    padding: 160px 120px 140px 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center !important; }
-    .acercademi-container .mensajeame div p {
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      font-size: 0.8rem;
-      text-align: center; }
-    .acercademi-container .mensajeame div h2 {
-      text-transform: inherit;
-      font-size: 2.4rem;
-      font-weight: 300;
-      line-height: 3.2rem;
-      padding-bottom: 40px;
-      text-align: center; }
-
-/*---- PORTFOLIO ----*/
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 20px;
-  margin: 80px; }
-  .grid-container div {
+        line-height: 3.2rem;
+        padding-bottom: 40px;
+        text-align: center; }
+  .retratos .grid-container,
+  .naturaleza .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    margin: 80px; }
+    .retratos .grid-container div,
+    .naturaleza .grid-container div {
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+    .retratos .grid-container .item1,
+    .naturaleza .grid-container .item1 {
+      position: relative;
+      grid-column: 1 / 5; }
+    .retratos .grid-container .image-container,
+    .naturaleza .grid-container .image-container {
+      position: relative;
+      overflow: hidden; }
+      .retratos .grid-container .image-container::before,
+      .naturaleza .grid-container .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        transition: opacity 0.4s ease; }
+    .retratos .grid-container .image-container:hover::before,
+    .naturaleza .grid-container .image-container:hover::before {
+      opacity: 0.5; }
+  .retratos .animation-container,
+  .naturaleza .animation-container {
     display: flex;
     justify-content: center;
-    flex-direction: column; }
-  .grid-container .item1 {
-    position: relative;
-    grid-column: 1 / 5; }
-  .grid-container .image-container {
-    position: relative;
-    overflow: hidden; }
-    .grid-container .image-container::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
-      opacity: 0;
-      transition: opacity 0.4s ease; }
-  .grid-container .image-container:hover::before {
-    opacity: 0.5; }
-
-.animation-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px; }
-  .animation-container .anim {
-    height: 5px;
-    width: 5px;
-    color: #c1bcbc;
-    box-shadow: -10px -10px 0 5px, -10px -10px 0 5px, -10px -10px 0 5px, -10px -10px 0 5px;
-    animation: loader-38 6s infinite; }
+    padding-top: 100px; }
+    .retratos .animation-container .anim,
+    .naturaleza .animation-container .anim {
+      height: 5px;
+      width: 5px;
+      color: #c1bcbc;
+      box-shadow: -10px -10px 0 5px, -10px -10px 0 5px, -10px -10px 0 5px, -10px -10px 0 5px;
+      animation: loader-38 6s infinite; }
 
 @keyframes loader-38 {
   0% {
@@ -326,167 +349,185 @@
     box-shadow: -10px -10px 0 5px, -10px 10px 0 5px, -10px 10px 0 5px, -10px 10px 0 5px; }
   100% {
     box-shadow: -10px -10px 0 5px, -10px -10px 0 5px, -10px -10px 0 5px, -10px -10px 0 5px; } }
-
-.trabajemosjuntos {
-  padding: 120px 160px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .trabajemosjuntos div p {
-    text-transform: uppercase;
-    letter-spacing: 0.4em;
-    font-size: 0.8rem;
-    text-align: center; }
-  .trabajemosjuntos div h2 {
-    text-transform: inherit;
-    font-size: 2.3rem;
-    font-weight: 300;
-    line-height: 3rem;
-    padding: 0px 140px;
-    padding-bottom: 40px;
-    text-align: center; }
-  .trabajemosjuntos p {
-    text-transform: uppercase;
-    letter-spacing: 0.4em;
-    font-size: 0.8rem;
-    text-align: center; }
-
-/*---- BLOG ----*/
-.intencional {
-  margin: 80px 0 100px 0; }
-  .intencional div {
-    text-align: center; }
-    .intencional div h2 {
-      font-size: 4.4rem;
-      font-weight: 200;
-      letter-spacing: 0.02em;
-      text-transform: inherit;
-      padding-bottom: 6px; }
-    .intencional div p {
-      font-size: 0.78rem;
-      line-height: 1.2rem;
-      text-transform: uppercase; }
-
-.cards-intencional {
-  width: 80%;
-  margin: 0 auto;
-  display: grid;
-  text-align: center; }
-  .cards-intencional .notas {
+  .retratos .trabajemosjuntos,
+  .naturaleza .trabajemosjuntos {
+    padding: 120px 160px;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 140px; }
-    .cards-intencional .notas p {
-      font-size: 1rem;
-      line-height: 1.6rem;
-      margin: 0px;
-      width: 60%; }
-    .cards-intencional .notas h2 {
-      text-transform: initial;
-      font-size: 2rem;
-      width: 50%;
-      margin: 50px auto;
-      margin-bottom: 3%;
-      font-weight: 300; }
-    .cards-intencional .notas h3 {
-      background-color: #000000;
-      padding: 16px 36px;
+    align-items: center; }
+    .retratos .trabajemosjuntos div p,
+    .naturaleza .trabajemosjuntos div p {
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
       font-size: 0.8rem;
-      letter-spacing: 0.3em;
-      font-weight: 500;
-      margin-top: 40px;
-      color: #fffFFF; }
-    .cards-intencional .notas .image-wrap {
-      width: 80%;
-      height: 500px;
-      overflow: hidden;
-      margin-top: 3%; }
-    .cards-intencional .notas .first-img-container,
-    .cards-intencional .notas .second-img-container,
-    .cards-intencional .notas .third-img-container {
-      height: 100%;
-      background-size: cover;
-      background-repeat: no-repeat; }
-    .cards-intencional .notas .first-img-container {
-      background-image: url(../img/intencional1b.jpg); }
-    .cards-intencional .notas .second-img-container {
-      background-image: url(../img/intencional2c.jpg); }
-    .cards-intencional .notas .third-img-container {
-      background-image: url(../img/intencional3b.jpg); }
-
-/*---- CONTACTO ----*/
-.cabezalcontacto {
-  width: 100%;
-  height: calc(100vh - 80px);
-  background-image: url(../img/contacto.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fffFFF;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 78px; }
-  .cabezalcontacto p {
-    letter-spacing: 0.4em;
-    font-size: 0.9rem;
-    margin-bottom: 0.3rem; }
-  .cabezalcontacto h2 {
-    text-transform: inherit;
-    font-size: 2.4rem;
-    font-weight: 300;
-    line-height: 3rem; }
-
-.contacto {
-  width: 86%;
-  margin: 0 auto;
-  margin-top: -220px;
-  margin-bottom: 160px; }
-
-.contactotexto {
-  width: 80%;
-  margin: 0 auto;
-  display: grid;
-  background-color: #EFF0F0;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 160px;
-  margin-top: -200px; }
-  .contactotexto p {
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.9rem;
-    text-align: center;
+      text-align: center; }
+    .retratos .trabajemosjuntos div h2,
+    .naturaleza .trabajemosjuntos div h2 {
+      text-transform: inherit;
+      font-size: 2.3rem;
+      font-weight: 300;
+      line-height: 3rem;
+      padding: 0px 140px;
+      padding-bottom: 40px;
+      text-align: center; }
+    .retratos .trabajemosjuntos p,
+    .naturaleza .trabajemosjuntos p {
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
+      font-size: 0.8rem;
+      text-align: center; }
+  .retratos .intencional,
+  .naturaleza .intencional {
+    margin: 80px 0 100px 0; }
+    .retratos .intencional div,
+    .naturaleza .intencional div {
+      text-align: center; }
+      .retratos .intencional div h2,
+      .naturaleza .intencional div h2 {
+        font-size: 4.4rem;
+        font-weight: 200;
+        letter-spacing: 0.02em;
+        text-transform: inherit;
+        padding-bottom: 6px; }
+      .retratos .intencional div p,
+      .naturaleza .intencional div p {
+        font-size: 0.78rem;
+        line-height: 1.2rem;
+        text-transform: uppercase; }
+  .retratos .cards-intencional,
+  .naturaleza .cards-intencional {
     width: 80%;
     margin: 0 auto;
-    padding: 80px 0; }
-
-.formulario div h2 {
-  text-align: center;
-  letter-spacing: 0.02em;
-  font-weight: 300;
-  font-size: 2.4rem;
-  margin-bottom: 100px;
-  text-transform: inherit; }
-
-.formulario .formulario-ok {
-  width: 66%;
-  margin: 0 auto;
-  margin-bottom: 160px; }
-
-.formulario .form-floating {
-  margin: 25px 0; }
-
-.formulario-ok .row {
-  margin-bottom: 25px; }
-
-.formulario-ok .col-12 {
-  margin-bottom: 25px; }
-
-.formulario-ok .g-3 {
-  margin-bottom: 25px; }
+    display: grid;
+    text-align: center; }
+    .retratos .cards-intencional .notas,
+    .naturaleza .cards-intencional .notas {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      margin-bottom: 140px; }
+      .retratos .cards-intencional .notas p,
+      .naturaleza .cards-intencional .notas p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        margin: 0px;
+        width: 60%; }
+      .retratos .cards-intencional .notas h2,
+      .naturaleza .cards-intencional .notas h2 {
+        text-transform: initial;
+        font-size: 2rem;
+        width: 50%;
+        margin: 50px auto;
+        margin-bottom: 3%;
+        font-weight: 300; }
+      .retratos .cards-intencional .notas h3,
+      .naturaleza .cards-intencional .notas h3 {
+        background-color: #000000;
+        padding: 16px 36px;
+        font-size: 0.8rem;
+        letter-spacing: 0.3em;
+        font-weight: 500;
+        margin-top: 40px;
+        color: #fffFFF; }
+      .retratos .cards-intencional .notas .image-wrap,
+      .naturaleza .cards-intencional .notas .image-wrap {
+        width: 80%;
+        height: 500px;
+        overflow: hidden;
+        margin-top: 3%; }
+      .retratos .cards-intencional .notas .first-img-container,
+      .retratos .cards-intencional .notas .second-img-container,
+      .retratos .cards-intencional .notas .third-img-container,
+      .naturaleza .cards-intencional .notas .first-img-container,
+      .naturaleza .cards-intencional .notas .second-img-container,
+      .naturaleza .cards-intencional .notas .third-img-container {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .retratos .cards-intencional .notas .first-img-container,
+      .naturaleza .cards-intencional .notas .first-img-container {
+        background-image: url(../img/intencional1b.jpg); }
+      .retratos .cards-intencional .notas .second-img-container,
+      .naturaleza .cards-intencional .notas .second-img-container {
+        background-image: url(../img/intencional2c.jpg); }
+      .retratos .cards-intencional .notas .third-img-container,
+      .naturaleza .cards-intencional .notas .third-img-container {
+        background-image: url(../img/intencional3b.jpg); }
+  .retratos .cabezalcontacto,
+  .naturaleza .cabezalcontacto {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url(../img/contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fffFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 78px; }
+    .retratos .cabezalcontacto p,
+    .naturaleza .cabezalcontacto p {
+      letter-spacing: 0.4em;
+      font-size: 0.9rem;
+      margin-bottom: 0.3rem; }
+    .retratos .cabezalcontacto h2,
+    .naturaleza .cabezalcontacto h2 {
+      text-transform: inherit;
+      font-size: 2.4rem;
+      font-weight: 300;
+      line-height: 3rem; }
+  .retratos .contacto,
+  .naturaleza .contacto {
+    width: 86%;
+    margin: 0 auto;
+    margin-top: -220px;
+    margin-bottom: 160px; }
+  .retratos .contactotexto,
+  .naturaleza .contactotexto {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    background-color: #EFF0F0;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 160px;
+    margin-top: -200px; }
+    .retratos .contactotexto p,
+    .naturaleza .contactotexto p {
+      font-weight: 300;
+      font-size: 1rem;
+      line-height: 1.9rem;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      padding: 80px 0; }
+  .retratos .formulario div h2,
+  .naturaleza .formulario div h2 {
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin-bottom: 100px;
+    text-transform: inherit; }
+  .retratos .formulario .formulario-ok,
+  .naturaleza .formulario .formulario-ok {
+    width: 66%;
+    margin: 0 auto;
+    margin-bottom: 160px; }
+  .retratos .formulario .form-floating,
+  .naturaleza .formulario .form-floating {
+    margin: 25px 0; }
+  .retratos .formulario-ok .row,
+  .naturaleza .formulario-ok .row {
+    margin-bottom: 25px; }
+  .retratos .formulario-ok .col-12,
+  .naturaleza .formulario-ok .col-12 {
+    margin-bottom: 25px; }
+  .retratos .formulario-ok .g-3,
+  .naturaleza .formulario-ok .g-3 {
+    margin-bottom: 25px; }
 
 footer {
   padding-left: 5%;
