@@ -53,33 +53,19 @@ a {
 
 .btn-mensajeame{
     @include custom-button(1rem, 40px, 10px 30px, nth($paleta-colores, 2), nth($paleta-colores, 5), nth($paleta-colores, 4));
-
-    // font-size: 1rem;
-    // letter-spacing: 0.2em;
-    // margin-top: 40px;
-    // padding: 10px 30px;
-    // background-color: nth($paleta-colores, 2);
-    // color: nth($paleta-colores, 5);
-    // &:hover{
-    //     text-decoration: none;
-    //     color: nth($paleta-colores, 4);
-    // }
-
 }
 
-/*---- SEPARADOR ----*/
+//*---- SEPARADOR ----*//
 
 hr.solid{
     border-top: 1.2px solid nth($paleta-colores, 3);
-    // margin-right: 70px;
-    // margin-left: 70px;
     width: 90%;
     margin: auto;
     margin-bottom: 80px;
 
 }
 
-/*---- FOOTER ----*/
+//*---- FOOTER ----*//
 
 .btn-contacto {
     font-size: 0.7rem;

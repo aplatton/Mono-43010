@@ -9,17 +9,6 @@ $paleta-colores:(
 );
 
 
-@mixin flex-center($padding-top, $background-image) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: $padding-top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: $background-image;
-}
-
-
 @mixin custom-button($font-size, $margin-top, $padding, $background-color, $text-color, $hover-color) {
     font-size: $font-size;
     letter-spacing: 0.2em;
