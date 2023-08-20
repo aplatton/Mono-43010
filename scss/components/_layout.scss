@@ -62,7 +62,7 @@
 
 .portfolio {
     height: 649px;
-    color: #fff;
+    color: nth($paleta-colores, 6);
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -351,7 +351,7 @@
     .anim {
         height: 5px;
         width: 5px;
-        color: #c1bcbc;
+        color: nth($paleta-colores, 2);
         box-shadow: -10px -10px 0 5px,
             -10px -10px 0 5px,
             -10px -10px 0 5px,

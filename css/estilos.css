@@ -98,7 +98,7 @@
 
 .portfolio {
   height: 649px;
-  color: #fff;
+  color: #fffFFF;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr; }
@@ -826,7 +826,7 @@ hr.solid {
   margin-top: 40px;
   padding: 10px 30px;
   background-color: #3c3c3c;
-  color: #dcdcdc;
+  color: #EFF0F0;
   text-transform: uppercase;
   margin: 0 140px;
   width: auto;
