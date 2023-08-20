@@ -1,19 +1,6 @@
 /*---- PALETA DE COLOR ----*/
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap");
-.portfolio .retratos .ver,
-.portfolio .naturaleza .ver {
-  letter-spacing: 0.1em;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: center;
-  text-decoration: none;
-  transition: color 0.3s ease; }
-  .portfolio .retratos .ver:hover,
-  .portfolio .naturaleza .ver:hover {
-    color: #c1bcbc; }
-
-.hero p, .portfolio .retratos h2,
-.portfolio .naturaleza h2, .intencional div p {
+.hero p, .intencional div p {
   text-transform: uppercase;
   letter-spacing: 0.2em; }
 
@@ -84,14 +71,10 @@
 
 .portfolio {
   height: 649px;
-  color: #fffFFF;
+  color: #fff;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr; }
-  .portfolio .retratos {
-    background-image: url(/img/portfolio1b.jpg); }
-  .portfolio .naturaleza {
-    background-image: url(/img/portfolio2b.jpg); }
   .portfolio .retratos,
   .portfolio .naturaleza {
     display: flex;
@@ -104,18 +87,32 @@
     .portfolio .naturaleza h2 {
       font-size: 1.5rem;
       font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
       text-align: center;
       padding-bottom: 8px; }
-    .portfolio .retratos p,
-    .portfolio .naturaleza p {
-      font-size: 0.9rem;
-      font-weight: 300;
-      letter-spacing: 0.09em;
-      padding-bottom: 22px;
-      text-align: center; }
-    .portfolio .retratos .ver,
-    .portfolio .naturaleza .ver {
-      color: #fffFFF; }
+  .portfolio p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.09em;
+    padding-bottom: 22px;
+    text-align: center; }
+
+.ver {
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: #fff; }
+  .ver:hover {
+    color: #c1bcbc; }
+
+.retratos {
+  background-image: url(/img/portfolio1b.jpg); }
+
+.naturaleza {
+  background-image: url(/img/portfolio2b.jpg); }
 
 .clientes {
   padding: 0px;

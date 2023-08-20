@@ -62,19 +62,10 @@
 
 .portfolio {
     height: 649px;
-    color: nth($paleta-colores, 6);
+    color: #fff;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-    .retratos {
-        background-image: url(/img/portfolio1b.jpg);
-    }
-
-    .naturaleza {
-        background-image: url(/img/portfolio2b.jpg);
-    }
-
     .retratos,
     .naturaleza {
         display: flex;
@@ -87,10 +78,12 @@
         h2 {
             font-size: 1.5rem;
             font-weight: 400;
-            @extend %upperspacing;
+            text-transform: uppercase;
+            letter-spacing: 0.09em;
             text-align: center;
             padding-bottom: 8px;
         }
+    }
 
         p {
             font-size: 0.9rem;
@@ -98,13 +91,27 @@
             letter-spacing: 0.09em;
             padding-bottom: 22px;
             text-align: center;
-        }
-
-        .ver {
-            @extend %boton-base;
-            color: nth($paleta-colores, 6);
-        }
     }
+}
+
+.ver {
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+        color: #c1bcbc;
+    }
+}
+
+.retratos {
+    background-image: url(/img/portfolio1b.jpg);
+}
+
+.naturaleza {
+    background-image: url(/img/portfolio2b.jpg);
 }
 
 .clientes {
