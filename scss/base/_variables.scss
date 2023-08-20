@@ -39,3 +39,24 @@ $paleta-colores:(
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
+
+%cardstyle{
+    img {
+        padding-bottom: 40px;
+    }
+
+    p {
+        line-height: 1.7rem;
+        font-size: 0.9rem;
+        font-weight: 300;
+        padding-right: 80px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.4em;
+    }
+    }

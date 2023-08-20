@@ -35,6 +35,7 @@
         display: flex;
         flex-direction: column;
         height: 100vh;
+
         .content {
             height: 780px;
 
@@ -112,7 +113,7 @@
             flex-wrap: nowrap;
 
             .bajada {
-                p{
+                p {
                     text-align: left;
                     margin-right: 120px;
                 }
@@ -128,6 +129,7 @@
         }
 
     }
+
     .acercade .bio {
         margin: 0;
         margin-top: 60px;
@@ -138,17 +140,21 @@
         gap: 10px;
         margin: 10px;
         margin-top: 50px;
+
         .item1 {
             grid-column: 1 / 3;
         }
+
         img {
             max-width: 100%;
             height: auto;
         }
     }
+
     .trabajemosjuntos {
         width: 100%;
         padding: 100px 0px;
+
         h2 {
             padding: 10px 50px;
         }
@@ -159,7 +165,7 @@
     .intencional {
         width: 85%;
         margin: 14% auto;
-    
+
         div {
             h2 {
                 p {
@@ -168,21 +174,24 @@
                 }
             }
         }
-    
-        
+
+
     }
+
     .cards-intencional {
-        .notas{
+        .notas {
             h2 {
                 width: 90%;
             }
-    
+
             p {
                 width: 80%;
             }
-            .image-wrap{
+
+            .image-wrap {
                 width: 100%;
-                .image{
+
+                .image {
                     background-position: center center;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -275,71 +284,85 @@
 
     .bienvenido {
         padding-top: 100px;
-        padding-bottom: 30px;;
+        padding-bottom: 30px;
+        ;
+
         div {
             h2 {
                 font-size: 2rem;
             }
-    
+
             p {
                 font-size: 0.8rem;
                 line-height: 1.3rem;
                 margin: 0 35px;
-                
+
             }
         }
     }
-    .portfolio{
-        .content{
+
+    .portfolio {
+        .content {
             h2 {
                 font-size: 1.2rem;
                 padding-bottom: 0;
             }
+
             p {
                 font-size: 0.8rem;
                 padding: 0 20px 0 20px;
             }
+
             .ver {
                 font-size: 1rem;
             }
         }
     }
+
     .clientes {
         padding: 0 20px;
         margin-bottom: 40px;
+
         .menu-clientes {
             margin-top: 60px;
             margin-bottom: 30px;
             flex-direction: column;
             align-items: flex-start;
+
             h2 {
                 font-size: 0.9rem;
             }
-            
+
         }
+
         .cards-clientes {
             grid-template-columns: 1fr;
             row-gap: 100px;
+
             p {
                 font-size: 0.9rem;
                 line-height: 1.6rem;
                 padding: 0;
             }
-            .cards{
+
+            .cards {
                 img {
                     padding-bottom: 20px;
                 }
+
                 p {
                     font-size: 0.8rem;
                     padding-right: 20px;
                     padding-bottom: 20px;
                 }
+
                 h4 {
                     font-size: 0.75rem;
                 }
             }
         }
     }
+
     .trabajemosjuntos {
         div h2 {
             font-size: 1.8rem;
@@ -348,6 +371,7 @@
             margin: auto;
         }
     }
+
     .acercademi-container {
         margin: 0 35px;
     }
@@ -395,7 +419,8 @@
         font-size: 1.7rem;
         line-height: 2.8rem;
     }
-    .cabezalcontacto{
+
+    .cabezalcontacto {
         background-position: center;
     }
 }
@@ -403,18 +428,22 @@
 footer {
     width: 100%;
     margin: 0 0 50px 0;
-    .footer-div{
+
+    .footer-div {
         h2 {
             font-size: 1.4rem;
             font-weight: 500;
         }
+
         p {
             font-size: 0.9rem;
             line-height: 1.2rem;
         }
+
         .redes {
             margin-top: -10px;
         }
+
         .btn-contacto {
             font-size: 0.7rem;
             margin-top: 10px;
