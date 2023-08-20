@@ -1,5 +1,22 @@
 /*---- PALETA DE COLOR ----*/
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.portfolio .retratos .ver,
+.portfolio .naturaleza .ver {
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease; }
+  .portfolio .retratos .ver:hover,
+  .portfolio .naturaleza .ver:hover {
+    color: #c1bcbc; }
+
+.hero p, .portfolio .retratos h2,
+.portfolio .naturaleza h2, .intencional div p {
+  text-transform: uppercase;
+  letter-spacing: 0.2em; }
+
 .nav {
   background-color: #e1e1d8; }
 
@@ -37,8 +54,6 @@
     font-size: 4rem;
     font-weight: 200; }
   .hero p {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     font-size: 0.76rem;
     font-weight: 500;
     margin-top: 10px; }
@@ -74,9 +89,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr; }
   .portfolio .retratos {
-    background-image: url(../img/portfolio1b.jpg); }
+    background-image: url(../../img/portfolio1b.jpg); }
   .portfolio .naturaleza {
-    background-image: url(../img/portfolio2b.jpg); }
+    background-image: url(../../img/portfolio2b.jpg); }
   .portfolio .retratos,
   .portfolio .naturaleza {
     display: flex;
@@ -89,8 +104,6 @@
     .portfolio .naturaleza h2 {
       font-size: 1.5rem;
       font-weight: 400;
-      text-transform: uppercase;
-      letter-spacing: 0.09em;
       text-align: center;
       padding-bottom: 8px; }
     .portfolio .retratos p,
@@ -102,15 +115,7 @@
       text-align: center; }
     .portfolio .retratos .ver,
     .portfolio .naturaleza .ver {
-      letter-spacing: 0.1em;
-      font-size: 1rem;
-      font-weight: 400;
-      text-align: center;
-      text-decoration: none;
       color: #fffFFF; }
-      .portfolio .retratos .ver:hover,
-      .portfolio .naturaleza .ver:hover {
-        color: #c1bcbc; }
 
 .clientes {
   padding: 0px;
@@ -358,8 +363,7 @@
       padding-bottom: 6px; }
     .intencional div p {
       font-size: 0.78rem;
-      line-height: 1.2rem;
-      text-transform: uppercase; }
+      line-height: 1.2rem; }
 
 .cards-intencional {
   width: 80%;

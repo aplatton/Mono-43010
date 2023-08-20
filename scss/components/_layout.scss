@@ -1,5 +1,5 @@
 //*---- INDEX ----*//
-.hero{
+.hero {
     width: 100%;
     height: calc(100vh - 80px);
     background-image: url(../img/apertura.jpg);
@@ -11,38 +11,44 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 78px;
-    h2{
+
+    h2 {
         font-size: 4rem;
         font-weight: 200;
     }
-    p{
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
+
+    p {
+        @extend %upperspacing;
         font-size: 0.76rem;
         font-weight: 500;
         margin-top: 10px;
     }
 }
-.bienvenido{
+
+.bienvenido {
     padding-top: 200px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    div{
+
+    div {
         margin-bottom: 36px;
-        img{
+
+        img {
             max-width: 100%
         }
     }
-    div{
-        h2{
+
+    div {
+        h2 {
             font-size: 3rem;
             font-weight: 200;
             text-align: center;
             padding-bottom: 5px;
         }
-        p{
+
+        p {
             letter-spacing: 0.1em;
             font-size: 1rem;
             font-weight: 400;
@@ -51,8 +57,9 @@
             margin-right: 30%;
             line-height: 1.5rem;
         }
-    }   
+    }
 }
+
 .portfolio {
     height: 649px;
     color: nth($paleta-colores, 6);
@@ -61,11 +68,11 @@
     grid-template-columns: 1fr 1fr;
 
     .retratos {
-        background-image: url(../img/portfolio1b.jpg);
+        background-image: url(../../img/portfolio1b.jpg);
     }
 
     .naturaleza {
-        background-image: url(../img/portfolio2b.jpg);
+        background-image: url(../../img/portfolio2b.jpg);
     }
 
     .retratos,
@@ -80,8 +87,7 @@
         h2 {
             font-size: 1.5rem;
             font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.09em;
+            @extend %upperspacing;
             text-align: center;
             padding-bottom: 8px;
         }
@@ -95,32 +101,25 @@
         }
 
         .ver {
-            letter-spacing: 0.1em;
-            font-size: 1rem;
-            font-weight: 400;
-            text-align: center;
-            text-decoration: none;
+            @extend %boton-base;
             color: nth($paleta-colores, 6);
-
-            &:hover {
-                color: nth($paleta-colores, 2);
-            }
         }
     }
 }
 
-.clientes{
+.clientes {
     padding: 0px;
     width: 90%;
     margin: auto;
     margin-bottom: 80px;
 
-    .menu-clientes{
+    .menu-clientes {
         margin-top: 110px;
         margin-bottom: 50px;
         display: flex;
         justify-content: space-between;
-        h2{
+
+        h2 {
             letter-spacing: 0.2em;
             font-size: 1rem;
             font-weight: 400;
@@ -128,41 +127,45 @@
             display: inline-block;
         }
     }
-    .cards-clientes{
+
+    .cards-clientes {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 40px;
         justify-content: center;
         margin-top: 40px;
         width: 100%;
-        .cards{
-            img{
+
+        .cards {
+            img {
                 padding-bottom: 40px;
             }
-            p{
+
+            p {
                 line-height: 1.7rem;
                 font-size: 0.9rem;
                 font-weight: 300;
                 padding-right: 80px;
                 text-align: left;
                 padding-bottom: 40px;
-    }
             }
-            h4{
-                font-size: 0.9rem;
-                font-weight: 400;
-                line-height: 1.4em;
-            } 
         }
+
+        h4 {
+            font-size: 0.9rem;
+            font-weight: 400;
+            line-height: 1.4em;
+        }
+    }
 
 }
 
 //*---- ACERCA DE MI ----*//    
 
-.acercademi-container{
+.acercademi-container {
     margin: 0px 85px;
 
-    .presentacion{
+    .presentacion {
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -170,26 +173,28 @@
         margin-top: 80px;
         margin-bottom: 60px;
 
-        .bajada{
-            h3{
+        .bajada {
+            h3 {
                 font-size: 2.3rem;
                 font-weight: 300;
                 line-height: 2.8rem;
                 padding-bottom: 15px;
                 width: 90%;
             }
-            p{
+
+            p {
                 text-transform: uppercase;
                 font-size: 0.8rem;
                 letter-spacing: 0.26em;
 
             }
         }
-        .encabezado-img-container{
+
+        .encabezado-img-container {
             width: 100%;
             overflow: hidden;
 
-            .presentacion-image{
+            .presentacion-image {
                 width: 100%;
                 background-image: url(../img/presentacion.jpg);
                 background-repeat: no-repeat;
@@ -202,23 +207,24 @@
         }
     }
 
-    .acercade{
+    .acercade {
         display: flex;
         justify-content: space-between;
         gap: 50px;
         margin: 80px 0;
         margin-top: 100px;
 
-        .bio-img-container{
+        .bio-img-container {
             width: 35%;
             overflow: hidden;
 
-            img{
+            img {
                 max-width: 100%;
                 height: auto;
-            }   
+            }
         }
-        .bio{
+
+        .bio {
             width: 60%;
             display: flex;
             flex-direction: column;
@@ -232,7 +238,7 @@
                 position: relative;
                 display: inline-block;
                 width: 28%;
-            
+
                 &.subrayado-hover:hover::after {
                     width: 100%;
                 }
@@ -250,7 +256,7 @@
                 }
             }
 
-            h5{
+            h5 {
                 text-transform: uppercase;
                 letter-spacing: 0.2em;
                 font-size: 0.8rem;
@@ -259,14 +265,16 @@
                 padding-bottom: 40px;
 
             }
-            p{
+
+            p {
                 font-size: 1.1rem;
                 text-align: left;
                 padding-bottom: 80px;
                 line-height: 2rem;
 
             }
-            h6{
+
+            h6 {
                 text-transform: uppercase;
                 font-size: 0.7rem;
                 font-weight: 400;
@@ -279,22 +287,23 @@
         }
     }
 
-    .mensajeame{
+    .mensajeame {
         background-color: nth($paleta-colores, 4);
         padding: 160px 120px 140px 120px;
         display: flex;
         flex-direction: column;
         align-items: center !important;
 
-        div{
-            p{
+        div {
+            p {
                 text-transform: uppercase;
                 letter-spacing: 0.2em;
                 font-size: 0.8rem;
                 text-align: center;
 
             }
-            h2{
+
+            h2 {
                 text-transform: inherit;
                 font-size: 2.4rem;
                 font-weight: 300;
@@ -310,26 +319,30 @@
 
 //*---- PORTFOLIO ----*//  
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
     margin: 80px;
-    div{
+
+    div {
         display: flex;
         justify-content: center;
         flex-direction: column;
 
     }
-    .item1{
+
+    .item1 {
         position: relative;
         grid-column: 1 / 5;
 
     }
-    .image-container{
+
+    .image-container {
         position: relative;
         overflow: hidden;
-        &::before{
+
+        &::before {
             content: "";
             position: absolute;
             top: 0;
@@ -339,125 +352,143 @@
             background-color: rgba(0, 0, 0, 0.6);
             opacity: 0;
             transition: opacity 0.4s ease;
-            }
         }
+    }
+
     .image-container:hover::before {
         opacity: 0.5;
 
-    }   
+    }
 }
-.animation-container{
+
+.animation-container {
     display: flex;
     justify-content: center;
     padding-top: 100px;
+
     .anim {
         height: 5px;
         width: 5px;
         color: #c1bcbc;
         box-shadow: -10px -10px 0 5px,
-                    -10px -10px 0 5px,
-                    -10px -10px 0 5px,
-                    -10px -10px 0 5px;
+            -10px -10px 0 5px,
+            -10px -10px 0 5px,
+            -10px -10px 0 5px;
         animation: loader-38 6s infinite;
+    }
+
+    @keyframes loader-38 {
+        0% {
+            box-shadow: -10px -10px 0 5px,
+                -10px -10px 0 5px,
+                -10px -10px 0 5px,
+                -10px -10px 0 5px;
         }
 
-            @keyframes loader-38 {
-            0% {
-            box-shadow: -10px -10px 0 5px,
-                        -10px -10px 0 5px,
-                        -10px -10px 0 5px,
-                        -10px -10px 0 5px;
-            }
         8.33% {
             box-shadow: -10px -10px 0 5px,
-                        10px -10px 0 5px,
-                        10px -10px 0 5px,
-                        10px -10px 0 5px;
-        }
-        16.66% {
-            box-shadow: -10px -10px 0 5px,
-                        10px -10px 0 5px,
-                        10px 10px 0 5px,
-                        10px 10px 0 5px;
-        }
-        24.99% {
-            box-shadow: -10px -10px 0 5px,
-                        10px -10px 0 5px,
-                        10px 10px 0 5px,
-                        -10px 10px 0 5px;
-        }
-        33.32% {
-            box-shadow: -10px -10px 0 5px,
-                        10px -10px 0 5px,
-                        10px 10px 0 5px,
-                        -10px -10px 0 5px;
-        }
-        41.65% {
-            box-shadow: 10px -10px 0 5px,
-                        10px -10px 0 5px,
-                        10px 10px 0 5px,
-                        10px -10px 0 5px;
-        }
-        49.98% {
-            box-shadow: 10px 10px 0 5px,
-                        10px 10px 0 5px,
-                        10px 10px 0 5px,
-                        10px 10px 0 5px;
-        }
-        58.31% {
-            box-shadow: -10px 10px 0 5px,
-                        -10px 10px 0 5px,
-                        10px 10px 0 5px,
-                        -10px 10px 0 5px;
-        }
-        66.64% {
-            box-shadow: -10px -10px 0 5px,
-                        -10px -10px 0 5px,
-                        10px 10px 0 5px,
-                        -10px 10px 0 5px;
-        }
-        74.97% {
-            box-shadow: -10px -10px 0 5px,
-                        10px -10px 0 5px,
-                        10px 10px 0 5px,
-                        -10px 10px 0 5px;
-        }
-        83.3% {
-            box-shadow: -10px -10px 0 5px,
-                        10px 10px 0 5px,
-                        10px 10px 0 5px,
-                        -10px 10px 0 5px;
-        }
-        91.63% {
-            box-shadow: -10px -10px 0 5px,
-                        -10px 10px 0 5px,
-                        -10px 10px 0 5px,
-                        -10px 10px 0 5px;
-        }
-        100% {
-            box-shadow: -10px -10px 0 5px,
-                        -10px -10px 0 5px,
-                        -10px -10px 0 5px,
-                        -10px -10px 0 5px;
-        }
+                10px -10px 0 5px,
+                10px -10px 0 5px,
+                10px -10px 0 5px;
         }
 
-    
+        16.66% {
+            box-shadow: -10px -10px 0 5px,
+                10px -10px 0 5px,
+                10px 10px 0 5px,
+                10px 10px 0 5px;
+        }
+
+        24.99% {
+            box-shadow: -10px -10px 0 5px,
+                10px -10px 0 5px,
+                10px 10px 0 5px,
+                -10px 10px 0 5px;
+        }
+
+        33.32% {
+            box-shadow: -10px -10px 0 5px,
+                10px -10px 0 5px,
+                10px 10px 0 5px,
+                -10px -10px 0 5px;
+        }
+
+        41.65% {
+            box-shadow: 10px -10px 0 5px,
+                10px -10px 0 5px,
+                10px 10px 0 5px,
+                10px -10px 0 5px;
+        }
+
+        49.98% {
+            box-shadow: 10px 10px 0 5px,
+                10px 10px 0 5px,
+                10px 10px 0 5px,
+                10px 10px 0 5px;
+        }
+
+        58.31% {
+            box-shadow: -10px 10px 0 5px,
+                -10px 10px 0 5px,
+                10px 10px 0 5px,
+                -10px 10px 0 5px;
+        }
+
+        66.64% {
+            box-shadow: -10px -10px 0 5px,
+                -10px -10px 0 5px,
+                10px 10px 0 5px,
+                -10px 10px 0 5px;
+        }
+
+        74.97% {
+            box-shadow: -10px -10px 0 5px,
+                10px -10px 0 5px,
+                10px 10px 0 5px,
+                -10px 10px 0 5px;
+        }
+
+        83.3% {
+            box-shadow: -10px -10px 0 5px,
+                10px 10px 0 5px,
+                10px 10px 0 5px,
+                -10px 10px 0 5px;
+        }
+
+        91.63% {
+            box-shadow: -10px -10px 0 5px,
+                -10px 10px 0 5px,
+                -10px 10px 0 5px,
+                -10px 10px 0 5px;
+        }
+
+        100% {
+            box-shadow: -10px -10px 0 5px,
+                -10px -10px 0 5px,
+                -10px -10px 0 5px,
+                -10px -10px 0 5px;
+        }
+    }
+
+
 }
-.trabajemosjuntos{
+
+.trabajemosjuntos {
     padding: 120px 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    div{
-        p{
+
+    div {
+        p {
             text-transform: uppercase;
             letter-spacing: 0.4em;
             font-size: 0.8rem;
             text-align: center;
 
         }
-        h2{
+
+        h2 {
             text-transform: inherit;
             font-size: 2.3rem;
             font-weight: 300;
@@ -468,7 +499,8 @@
 
         }
     }
-    p{
+
+    p {
         text-transform: uppercase;
         letter-spacing: 0.4em;
         font-size: 0.8rem;
@@ -478,97 +510,103 @@
 
 //*---- BLOG ----*//  
 
-.intencional{
+.intencional {
     margin: 80px 0 100px 0;
-    div{
+
+    div {
         text-align: center;
-        h2{
+
+        h2 {
             font-size: 4.4rem;
             font-weight: 200;
             letter-spacing: 0.02em;
             text-transform: inherit;
             padding-bottom: 6px;
         }
-        p{
+
+        p {
             font-size: 0.78rem;
             line-height: 1.2rem;
-            text-transform: uppercase;
+            @extend %upperspacing;
 
         }
     }
 }
 
-.cards-intencional{
+.cards-intencional {
     width: 80%;
     margin: 0 auto;
     display: grid;
     text-align: center;
 
-    .notas{
+    .notas {
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
         margin-bottom: 140px;
 
-        p{
+        p {
             font-size: 1rem;
             line-height: 1.6rem;
             margin: 0px;
             width: 60%;
         }
-        
-            h2{
-                text-transform: initial;
-                font-size: 2rem;
-                width: 50%;
-                margin: 50px auto;
-                margin-bottom: 3%;
-                font-weight: 300;
 
-            }
+        h2 {
+            text-transform: initial;
+            font-size: 2rem;
+            width: 50%;
+            margin: 50px auto;
+            margin-bottom: 3%;
+            font-weight: 300;
 
-            h3{
-                background-color: nth($paleta-colores, 5);
-                padding: 16px 36px;
-                font-size: 0.8rem;
-                letter-spacing: 0.3em;
-                font-weight: 500;
-                margin-top: 40px;
-                color: nth($paleta-colores, 6);
+        }
 
-            }
-        
-        .image-wrap{
+        h3 {
+            background-color: nth($paleta-colores, 5);
+            padding: 16px 36px;
+            font-size: 0.8rem;
+            letter-spacing: 0.3em;
+            font-weight: 500;
+            margin-top: 40px;
+            color: nth($paleta-colores, 6);
+
+        }
+
+        .image-wrap {
             width: 80%;
             height: 500px;
             overflow: hidden;
             margin-top: 3%;
         }
-            .first-img-container,
-            .second-img-container,
-            .third-img-container{
-                    height: 100%;
-                    background-size: cover;
-                    background-repeat: no-repeat;
+
+        .first-img-container,
+        .second-img-container,
+        .third-img-container {
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
-        
-        .first-img-container{
-        background-image: url(../img/intencional1b.jpg)
-    }
-        .second-img-container{
+
+        .first-img-container {
+            background-image: url(../img/intencional1b.jpg)
+        }
+
+        .second-img-container {
             background-image: url(../img/intencional2c.jpg);
 
         }
-        .third-img-container{
+
+        .third-img-container {
             background-image: url(../img/intencional3b.jpg);
+        }
     }
-}
 }
 
 //*---- CONTACTO ----*//
 
-.cabezalcontacto{
+.cabezalcontacto {
     width: 100%;
     height: calc(100vh - 80px);
     background-image: url(../img/contacto.jpg);
@@ -580,13 +618,15 @@
     flex-direction: column;
     justify-content: center;
     padding-bottom: 78px;
-    p{
+
+    p {
         letter-spacing: 0.4em;
         font-size: 0.9rem;
         margin-bottom: 0.3rem;
 
     }
-    h2{
+
+    h2 {
         text-transform: inherit;
         font-size: 2.4rem;
         font-weight: 300;
@@ -596,14 +636,14 @@
 
 }
 
-.contacto{
+.contacto {
     width: 86%;
     margin: 0 auto;
     margin-top: -220px;
     margin-bottom: 160px;
 }
 
-.contactotexto{
+.contactotexto {
     width: 80%;
     margin: 0 auto;
     display: grid;
@@ -612,7 +652,8 @@
     flex-direction: row;
     margin-bottom: 160px;
     margin-top: -200px;
-    p{
+
+    p {
         font-weight: 300;
         font-size: 1rem;
         line-height: 1.9rem;
@@ -620,12 +661,12 @@
         width: 80%;
         margin: 0 auto;
         padding: 80px 0;
-        
+
 
     }
 }
 
-.formulario div h2{
+.formulario div h2 {
     text-align: center;
     letter-spacing: 0.02em;
     font-weight: 300;
@@ -634,7 +675,7 @@
     text-transform: inherit;
 }
 
-.formulario .formulario-ok{
+.formulario .formulario-ok {
     width: 66%;
     margin: 0 auto;
     margin-bottom: 160px;

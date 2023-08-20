@@ -21,3 +21,21 @@ $paleta-colores:(
         color: $hover-color;
     }
 }
+
+%boton-base{
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: nth($paleta-colores, 2);
+    }
+}
+
+%upperspacing{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
