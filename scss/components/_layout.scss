@@ -59,52 +59,53 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
 
-.portfolio .retratos {
-    background-image: url(../../img/portfolio1b.jpg);
-}
+    .retratos {
+        background-image: url(../img/portfolio1b.jpg);
+    }
 
-.portfolio .naturaleza {
-    background-image: url(../../img/portfolio2b.jpg);
-}
+    .naturaleza {
+        background-image: url(../img/portfolio2b.jpg);
+    }
 
-.retratos,
-.naturaleza {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 180px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    .retratos,
+    .naturaleza {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 180px;
+        background-repeat: no-repeat;
+        background-size: cover;
 
-div h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.09em;
-    text-align: center;
-    padding-bottom: 8px;
-}
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.09em;
+            text-align: center;
+            padding-bottom: 8px;
+        }
 
-div p {
-    font-size: 0.9rem;
-    font-weight: 300;
-    letter-spacing: 0.09em;
-    padding-bottom: 22px;
-    text-align: center;
-}
+        p {
+            font-size: 0.9rem;
+            font-weight: 300;
+            letter-spacing: 0.09em;
+            padding-bottom: 22px;
+            text-align: center;
+        }
 
-.ver {
-    letter-spacing: 0.1em;
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    color: nth($paleta-colores, 6);
-    &:hover{
-        color: nth($paleta-colores, 2);
+        .ver {
+            letter-spacing: 0.1em;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: center;
+            text-decoration: none;
+            color: nth($paleta-colores, 6);
+
+            &:hover {
+                color: nth($paleta-colores, 2);
+            }
+        }
     }
 }
 
