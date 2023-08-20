@@ -89,9 +89,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr; }
   .portfolio .retratos {
-    background-image: url(../../img/portfolio1b.jpg); }
+    background-image: url(/img/portfolio1b.jpg); }
   .portfolio .naturaleza {
-    background-image: url(../../img/portfolio2b.jpg); }
+    background-image: url(/img/portfolio2b.jpg); }
   .portfolio .retratos,
   .portfolio .naturaleza {
     display: flex;
