@@ -1,6 +1,17 @@
 /*---- PALETA DE COLOR ----*/
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap");
-.hero p, .intencional div p {
+.ver {
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease; }
+  .ver:hover {
+    color: #c1bcbc; }
+
+.hero p, .portfolio .retratos h2,
+.portfolio .naturaleza h2, .intencional div p {
   text-transform: uppercase;
   letter-spacing: 0.2em; }
 
@@ -103,8 +114,6 @@
     .portfolio .naturaleza h2 {
       font-size: 1.5rem;
       font-weight: 400;
-      text-transform: uppercase;
-      letter-spacing: 0.09em;
       text-align: center;
       padding-bottom: 8px; }
   .portfolio p {
@@ -115,20 +124,13 @@
     text-align: center; }
 
 .ver {
-  letter-spacing: 0.1em;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: center;
-  text-decoration: none;
-  color: #fff; }
-  .ver:hover {
-    color: #c1bcbc; }
+  color: #fffFFF; }
 
 .retratos {
-  background-image: url(/img/portfolio1b.jpg); }
+  background-image: url(/img/portfolio1z.jpg); }
 
 .naturaleza {
-  background-image: url(/img/portfolio2b.jpg); }
+  background-image: url(/img/portfolio2z.jpg); }
 
 .clientes {
   padding: 0px;

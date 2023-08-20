@@ -78,8 +78,7 @@
         h2 {
             font-size: 1.5rem;
             font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.09em;
+            @extend %upperspacing;
             text-align: center;
             padding-bottom: 8px;
         }
@@ -95,23 +94,16 @@
 }
 
 .ver {
-    letter-spacing: 0.1em;
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    &:hover {
-        color: #c1bcbc;
+    @extend %boton-base;
+    color: nth($paleta-colores, 6);
     }
-}
 
 .retratos {
-    background-image: url(/img/portfolio1b.jpg);
+    background-image: url(/img/portfolio1z.jpg);
 }
 
 .naturaleza {
-    background-image: url(/img/portfolio2b.jpg);
+    background-image: url(/img/portfolio2z.jpg);
 }
 
 .clientes {
